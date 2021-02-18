@@ -71,6 +71,7 @@
   width: 806px;
   height: 100%;
   border: 1px solid black;
+  position: relative;
 }
 #root header #bottom-wrap-right ul {
   display: flex;
@@ -118,6 +119,10 @@
 }
 #root header #bottom-wrap-right ul button:hover {
   background-color: #4c8be0;
+}
+#root header #bottom-wrap-right .fas.fa-search {
+  position: absolute;
+  right: 0;
 }
 #root header #jumbotron {
   background-image: url("../img/images/home1_slide_three_bg_2.jpg");

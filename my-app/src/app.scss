@@ -61,6 +61,7 @@
           width: 806px;
           height: 100%;
           border: 1px solid black;
+          position: relative;
 
           ul {
             @include flex-column-between;
@@ -118,6 +119,12 @@
               }
             }
 
+
+          }
+
+          .fas.fa-search {
+            position: absolute;
+            right: 0;
           }
         }
       }
