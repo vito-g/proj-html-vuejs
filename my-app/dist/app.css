@@ -105,6 +105,17 @@
 #root header #bottom-wrap-right ul div li:hover {
   color: #427ed5;
 }
+#root header #bottom-wrap-right ul div li:last-child {
+  list-style-type: none;
+}
+#root header #bottom-wrap-right ul button {
+  width: 122px;
+  height: 37px;
+  border-radius: 25px;
+  border: none;
+  background-color: #427ed5;
+  color: white;
+}
 #root header #jumbotron {
   background-image: url("../img/images/home1_slide_three_bg_2.jpg");
   background-size: cover;

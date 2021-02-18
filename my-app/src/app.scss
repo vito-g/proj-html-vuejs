@@ -97,7 +97,21 @@
                   color: $Havelock-blue;
                 }
 
+                &:last-child {
+                  list-style-type: none
+                }
+
               }
+
+            }
+
+            button {
+              width: 122px;
+              height: 37px;
+              border-radius: 25px;
+              border: none;
+              background-color: $Havelock-blue;
+              color: white;
             }
 
           }
