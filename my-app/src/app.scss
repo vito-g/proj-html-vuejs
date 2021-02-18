@@ -1,8 +1,8 @@
 @import "reset";
 
-body {
-  background-color: red;
-}
+// body {
+//   background-color: red;
+// }
 
 @mixin H-f-718-container {
   width: 718px;
@@ -14,4 +14,28 @@ body {
 
 @mixin W-1169-container {
   width: 1169px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+#root {
+
+  header {
+
+    #top {
+      @include W-1169-container;
+      height: 52px;
+    }
+
+    #bottom {
+      @include W-1169-container;
+      height: 106px;
+    }
+    
+    #jumbotron {
+      height: 652px;
+      width: 100%;
+      border: 1px solid black;
+    }
+  }
 }
