@@ -9,15 +9,64 @@
 }
 #root header #top {
   width: 1169px;
-  border: 1px solid black;
   margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 52px;
 }
-#root header #bottom {
-  width: 1169px;
+#root header #top-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 116px;
+  height: 100%;
   border: 1px solid black;
+  color: red;
+}
+#root header #top-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 425px;
+  height: 100%;
+  border: 1px solid black;
+  color: red;
+}
+#root header #bottom {
+  border-top: 1px solid #EAEAEA;
+}
+#root header #bottom-wrap {
+  width: 1169px;
   margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 106px;
+}
+#root header #bottom-wrap-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+  height: 100%;
+  border: 1px solid black;
+  color: red;
+}
+#root header #bottom-wrap-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 806px;
+  height: 100%;
+  border: 1px solid black;
+  color: red;
 }
 #root header #jumbotron {
   height: 652px;

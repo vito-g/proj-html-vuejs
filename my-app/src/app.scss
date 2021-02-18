@@ -1,6 +1,7 @@
 @import "reset";
 @import "colors";
 
+
 // body {
 //   background-color: red;
 // }
@@ -15,8 +16,15 @@
 
 @mixin W-1169-container {
   width: 1169px;
-  border: 1px solid black;
+  // border: 1px solid black;
   margin: auto;
+}
+
+@mixin flex-column-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #root {
@@ -26,12 +34,50 @@
 
     #top {
       @include W-1169-container;
+      @include flex-column-between;
       height: 52px;
+
+      &-left {
+        @include flex-column-between;
+        width: 116px;
+        height: 100%;
+        border: 1px solid black;
+        color: red;
+      }
+
+      &-right {
+        @include flex-column-between;
+        width: 425px;
+        height: 100%;
+        border: 1px solid black;
+        color: red;
+      }
     }
 
     #bottom {
-      @include W-1169-container;
-      height: 106px;
+      border-top: 1px solid #EAEAEA;
+
+      &-wrap {
+        @include W-1169-container;
+        @include flex-column-between;
+        height: 106px;
+
+        &-left {
+          @include flex-column-between;
+          width: 160px;
+          height: 100%;
+          border: 1px solid black;
+          color: red;
+        }
+
+        &-right {
+          @include flex-column-between;
+          width: 806px;
+          height: 100%;
+          border: 1px solid black;
+          color: red;
+        }
+      }
     }
 
     #jumbotron {
