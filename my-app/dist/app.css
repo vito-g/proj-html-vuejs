@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+#root header {
+  border-top: 3.5px solid #427ed5;
+}
 #root header #top {
   width: 1169px;
   border: 1px solid black;

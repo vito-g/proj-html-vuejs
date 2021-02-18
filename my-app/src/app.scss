@@ -1,4 +1,5 @@
 @import "reset";
+@import "colors";
 
 // body {
 //   background-color: red;
@@ -21,6 +22,7 @@
 #root {
 
   header {
+    border-top: 3.5px solid $Havelock-blue;
 
     #top {
       @include W-1169-container;
@@ -31,7 +33,7 @@
       @include W-1169-container;
       height: 106px;
     }
-    
+
     #jumbotron {
       height: 652px;
       width: 100%;
