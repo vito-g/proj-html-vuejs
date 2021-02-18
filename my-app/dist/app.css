@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+#root {
+  font-family: "Montserrat", sans-serif;
+}
 #root header {
   border-top: 3px solid #427ed5;
 }
@@ -63,10 +66,44 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 13px;
+  color: black;
   width: 806px;
   height: 100%;
   border: 1px solid black;
-  color: red;
+}
+#root header #bottom-wrap-right ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#root header #bottom-wrap-right ul div {
+  height: 106px;
+  line-height: 106px;
+}
+#root header #bottom-wrap-right ul div li {
+  display: inline-block;
+  margin-right: 40px;
+  position: relative;
+}
+#root header #bottom-wrap-right ul div li .upper-line {
+  height: 3px;
+  width: 100%;
+  display: none;
+  background-color: #427ed5;
+  position: absolute;
+  top: 0;
+}
+#root header #bottom-wrap-right ul div li i {
+  font-size: 9.5px;
+  margin: 0 0 0 9px;
+}
+#root header #bottom-wrap-right ul div li:hover .upper-line {
+  display: block;
+}
+#root header #bottom-wrap-right ul div li:hover {
+  color: #427ed5;
 }
 #root header #jumbotron {
   background-image: url("../img/images/home1_slide_three_bg_2.jpg");

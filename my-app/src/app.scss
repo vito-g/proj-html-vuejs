@@ -1,11 +1,13 @@
 @import "reset";
 @import "colors";
 @import "layout";
+@import "brand-logotypes";
 @import "background-pictures";
+@import "fonts-size";
 
 // CONTENITORE di TUTTO
 #root {
-
+  font-family: 'Montserrat', sans-serif;
 
   // HEADER
   header {
@@ -54,10 +56,51 @@
 
         &-right {
           @include flex-column-between;
+          font-size: $minor-font;
+          color: black;
           width: 806px;
           height: 100%;
           border: 1px solid black;
-          color: red;
+
+          ul {
+            @include flex-column-between;
+
+            div {
+              height: 106px;
+              line-height: 106px;
+
+
+              li {
+                display: inline-block;
+                margin-right: 40px;
+                position: relative;
+
+                .upper-line {
+                  height: 3px;
+                  width: 100%;
+                  display: none;
+                  background-color: $Havelock-blue;
+                  position: absolute;
+                  top: 0;
+                }
+
+                i {
+                  font-size: 9.5px;
+                  margin: 0 0 0 9px;
+                }
+
+                &:hover .upper-line{
+                  display: block;
+                }
+
+                &:hover {
+                  color: $Havelock-blue;
+                }
+
+              }
+            }
+
+          }
         }
       }
     }

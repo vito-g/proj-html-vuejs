@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <link rel="stylesheet" href="dist/app.css">
@@ -33,7 +35,16 @@
                 SX
               </div>
               <div id="bottom-wrap-right">
-                DX
+                <ul>
+                  <div v-for="element in ul" class="">
+                    <li>
+                      <div class="upper-line">
+                      </div>
+                      {{element}}
+                      <i class="fas fa-chevron-down"></i>
+                    </li>
+                  </div>
+                </ul>
               </div>
             </div>
           </div>
