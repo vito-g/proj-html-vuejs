@@ -112,6 +112,10 @@
               border: none;
               background-color: $Havelock-blue;
               color: white;
+
+              &:hover {
+                background-color: #4c8be0;
+              }
             }
 
           }

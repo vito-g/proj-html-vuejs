@@ -116,6 +116,9 @@
   background-color: #427ed5;
   color: white;
 }
+#root header #bottom-wrap-right ul button:hover {
+  background-color: #4c8be0;
+}
 #root header #jumbotron {
   background-image: url("../img/images/home1_slide_three_bg_2.jpg");
   background-size: cover;
