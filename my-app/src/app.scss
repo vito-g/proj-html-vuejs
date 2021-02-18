@@ -3,3 +3,15 @@
 body {
   background-color: red;
 }
+
+@mixin H-f-718-container {
+  width: 718px;
+}
+
+@mixin H-o-482-container {
+  width: 482px;
+}
+
+@mixin W-1169-container {
+  width: 1169px;
+}
