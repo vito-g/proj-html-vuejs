@@ -22,11 +22,15 @@
   align-items: center;
 }
 
+// CONTENITORE di TUTTO
 #root {
 
+
+  // HEADER
   header {
     border-top: 3.5px solid $Havelock-blue;
 
+    // Header Top
     #top {
       @include W-1169-container;
       @include flex-column-between;
@@ -48,7 +52,9 @@
         color: red;
       }
     }
+    // End Header Top
 
+    // Header Bottom
     #bottom {
       border-top: 1px solid #EAEAEA;
 
@@ -74,11 +80,19 @@
         }
       }
     }
+    // End Header Bottom
 
+    // Jumbotron
     #jumbotron {
       height: 652px;
       width: 100%;
       border: 1px solid black;
     }
+    // End Jumbotron
+    
   }
+  // END HEADER
+
+
 }
+// END CONTENITORE di TUTTO
