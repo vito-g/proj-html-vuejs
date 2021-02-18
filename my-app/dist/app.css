@@ -5,7 +5,7 @@
 }
 
 #root header {
-  border-top: 3.5px solid #427ed5;
+  border-top: 3px solid #427ed5;
 }
 #root header #top {
   width: 1169px;
@@ -69,6 +69,9 @@
   color: red;
 }
 #root header #jumbotron {
+  background-image: url("../img/images/home1_slide_three_bg_2.jpg");
+  background-size: cover;
+  background-position: center;
   height: 652px;
   width: 100%;
   border: 1px solid black;

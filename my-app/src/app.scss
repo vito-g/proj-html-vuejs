@@ -1,26 +1,7 @@
 @import "reset";
 @import "colors";
-
-@mixin H-f-718-container {
-  width: 718px;
-}
-
-@mixin H-o-482-container {
-  width: 482px;
-}
-
-@mixin W-1169-container {
-  width: 1169px;
-  // border: 1px solid black;
-  margin: auto;
-}
-
-@mixin flex-column-between {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+@import "layout";
+@import "background-pictures";
 
 // CONTENITORE di TUTTO
 #root {
@@ -28,7 +9,7 @@
 
   // HEADER
   header {
-    border-top: 3.5px solid $Havelock-blue;
+    border-top: 3px solid $Havelock-blue;
 
     // Header Top
     #top {
@@ -84,14 +65,17 @@
 
     // Jumbotron
     #jumbotron {
+      background-image: url($jumbotron-image);
+      background-size: cover;
+      background-position: center;
       height: 652px;
       width: 100%;
       border: 1px solid black;
     }
     // End Jumbotron
-    
+
   }
-  // END HEADER
+  // End HEADER
 
 
 }

@@ -1,0 +1,20 @@
+@mixin H-f-718-container {
+  width: 718px;
+}
+
+@mixin H-o-482-container {
+  width: 482px;
+}
+
+@mixin W-1169-container {
+  width: 1169px;
+  // border: 1px solid black;
+  margin: auto;
+}
+
+@mixin flex-column-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
