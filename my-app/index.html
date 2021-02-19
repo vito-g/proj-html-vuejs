@@ -106,17 +106,41 @@
         <!-- FOOTER -->
         <footer>
 
-          <div id="stripe-a">
-            <div id="stripe-a-wrap">
-              <div v-for="i in numBoxFooterStripeA" id="stripe-a-wrap-box">
-                PIPPO_
+          <div class="stripe-a">
+            <div class="stripe-a-wrap">
+
+              <div class="stripe-a-wrap-box">
+                  <div v-for="element in objFooter.contact">
+                    {{element}}
+                  </div>
               </div>
+
+              <div class="stripe-a-wrap-box">
+                  <div v-for="element in objFooter.topRatedProducts">
+                    {{element.product}} <br>
+                     <i v-for="i in 5" class="fas fa-star"></i><br>
+                    {{element.cost}}
+                  </div>
+              </div>
+
+              <div class="stripe-a-wrap-box">
+                  <div  v-for="element in objFooter.recentPost">
+                    {{element}}
+                  </div>
+              </div>
+
+              <div class="stripe-a-wrap-box">
+                  <div v-for="element in objFooter.tag">
+                    {{element}}
+                  </div>
+              </div>
+
             </div>
 
           </div>
 
-          <div id="stripe-b">
-            <div id="stripe-b-wrap">
+          <div class="stripe-b">
+            <div class="stripe-b-wrap">
             </div>
           </div>
 
