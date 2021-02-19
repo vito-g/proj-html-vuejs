@@ -24,7 +24,16 @@
         width: 116px;
         height: 100%;
         border: 1px solid black;
-        color: red;
+        color: $Nevada;
+
+        i {
+          font-size: 14px;
+
+          &:hover {
+            color: $Edward;
+          }
+
+        }
       }
 
       &-right {
@@ -46,12 +55,15 @@
         @include flex-column-between;
         height: 106px;
 
+        #brand-logotype {
+          cursor: pointer;
+        }
+
         &-left {
           @include flex-column-between;
           width: 160px;
           height: 100%;
-          border: 1px solid black;
-          color: red;
+          // border: 1px solid black;
         }
 
         &-right {
@@ -60,7 +72,7 @@
           color: black;
           width: 806px;
           height: 100%;
-          border: 1px solid black;
+          // border: 1px solid black;
           position: relative;
 
           ul {
@@ -75,6 +87,7 @@
                 display: inline-block;
                 margin-right: 40px;
                 position: relative;
+                cursor: pointer;
 
                 .upper-line {
                   height: 3px;
@@ -113,6 +126,7 @@
               border: none;
               background-color: $Havelock-blue;
               color: white;
+              cursor: pointer;
 
               &:hover {
                 background-color: #4c8be0;
@@ -125,6 +139,7 @@
           .fas.fa-search {
             position: absolute;
             right: 0;
+            cursor: pointer;
           }
         }
       }

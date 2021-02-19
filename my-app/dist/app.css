@@ -27,7 +27,13 @@
   width: 116px;
   height: 100%;
   border: 1px solid black;
-  color: red;
+  color: #64686c;
+}
+#root header #top-left i {
+  font-size: 14px;
+}
+#root header #top-left i:hover {
+  color: #a0a5a5;
 }
 #root header #top-right {
   display: flex;
@@ -51,6 +57,9 @@
   align-items: center;
   height: 106px;
 }
+#root header #bottom-wrap #brand-logotype {
+  cursor: pointer;
+}
 #root header #bottom-wrap-left {
   display: flex;
   flex-direction: row;
@@ -58,8 +67,6 @@
   align-items: center;
   width: 160px;
   height: 100%;
-  border: 1px solid black;
-  color: red;
 }
 #root header #bottom-wrap-right {
   display: flex;
@@ -70,7 +77,6 @@
   color: black;
   width: 806px;
   height: 100%;
-  border: 1px solid black;
   position: relative;
 }
 #root header #bottom-wrap-right ul {
@@ -87,6 +93,7 @@
   display: inline-block;
   margin-right: 40px;
   position: relative;
+  cursor: pointer;
 }
 #root header #bottom-wrap-right ul div li .upper-line {
   height: 3px;
@@ -116,6 +123,7 @@
   border: none;
   background-color: #427ed5;
   color: white;
+  cursor: pointer;
 }
 #root header #bottom-wrap-right ul button:hover {
   background-color: #4c8be0;
@@ -123,6 +131,7 @@
 #root header #bottom-wrap-right .fas.fa-search {
   position: absolute;
   right: 0;
+  cursor: pointer;
 }
 #root header #jumbotron {
   background-image: url("../img/images/home1_slide_three_bg_2.jpg");
