@@ -6,6 +6,11 @@
 @import "fonts-size";
 @import "button-style-basis";
 
+@mixin custom-i {
+  font-size: 9.5px;
+  margin: 0 0 0 9px;
+}
+
 // CONTENITORE di TUTTO
 #root {
   font-family: 'Montserrat', sans-serif;
@@ -61,8 +66,9 @@
           }
 
           i {
-            font-size: 9.5px;
-            margin: 0 0 0 9px;
+            @include custom-i;
+            // font-size: 9.5px;
+            // margin: 0 0 0 9px;
             color: inherit;
           }
 
@@ -126,8 +132,9 @@
                 }
 
                 i {
-                  font-size: 9.5px;
-                  margin: 0 0 0 9px;
+                  @include custom-i;
+                  // font-size: 9.5px;
+                  // margin: 0 0 0 9px;
                 }
 
                 &:hover .upper-line{
