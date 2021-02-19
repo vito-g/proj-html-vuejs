@@ -199,3 +199,30 @@
 #root header #jumbotron-heading-button button:hover {
   background-color: transparent;
 }
+#root footer #stripe-a {
+  height: 482px;
+  background-color: #2b2e32;
+}
+#root footer #stripe-a-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 1169px;
+  margin: auto;
+  height: 100%;
+}
+#root footer #stripe-a-wrap-box {
+  width: calc(100% / 4);
+  height: 100%;
+  border: 1px solid white;
+  color: white;
+}
+#root footer #stripe-b {
+  height: 121px;
+  background-color: #1d1f22;
+  display: flex;
+  justify-content: center;
+}
+#root footer #stripe-b-wrap {
+  width: calc(100% / 3);
+  border: 1px solid white;
+}

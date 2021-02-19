@@ -5,7 +5,8 @@ new Vue({
    ul: ["Home", "Shop", "Products", "Categories", "News", "Elements"],
    buttonShop: "SHOP NOW!",
    elIcons: ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram","fab fa-youtube"],
-   elShopping: ["Shopping Cart", "My Account", "CART"]
+   elShopping: ["Shopping Cart", "My Account", "CART"],
+   numBoxFooterStripeA: 4
  }
 });
 Vue.config.devtools = true;

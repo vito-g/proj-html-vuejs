@@ -241,5 +241,44 @@
   // End HEADER
 
 
+  //FOOTER
+  footer {
+
+    #stripe-a {
+      @include H-o-482-container;
+      background-color: #2b2e32;
+
+      &-wrap {
+        @include flex-column;
+        @include W-1169-container;
+        height: 100%;
+
+        &-box {
+          width: calc(100% / 4);
+          height: 100%;
+          border: 1px solid white;
+          color: white;
+        }
+      }
+
+    }
+
+    #stripe-b {
+      height: 121px;
+      background-color: #1d1f22;
+      display: flex;
+      justify-content: center;
+
+      &-wrap {
+        width: calc(100% / 3);
+        border: 1px solid white;
+      }
+    }
+
+
+  }
+  //End FOOTER
+
+
 }
 // END CONTENITORE di TUTTO
