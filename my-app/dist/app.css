@@ -112,6 +112,7 @@
   margin-right: 40px;
   position: relative;
   cursor: pointer;
+  font-weight: 300;
 }
 #root header #bottom-wrap-right ul div li .upper-line {
   height: 3px;
@@ -157,5 +158,38 @@
   background-position: center;
   height: 652px;
   width: 100%;
-  border: 1px solid black;
+  display: flex;
+}
+#root header #jumbotron-heading {
+  color: white;
+  margin: auto;
+}
+#root header #jumbotron-heading h2 {
+  font-size: 80px;
+  font-weight: 700px;
+}
+#root header #jumbotron-heading h3 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+#root header #jumbotron-heading-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root header #jumbotron-heading-button button {
+  width: 170px;
+  height: 59px;
+  background-color: #FFFFFF1D;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin: 35px 10px;
+}
+#root header #jumbotron-heading-button button:hover {
+  background-color: transparent;
 }

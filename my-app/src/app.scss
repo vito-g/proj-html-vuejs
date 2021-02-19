@@ -113,6 +113,7 @@
                 margin-right: 40px;
                 position: relative;
                 cursor: pointer;
+                font-weight: 300;
 
                 .upper-line {
                   height: 3px;
@@ -178,7 +179,47 @@
       background-position: center;
       height: 652px;
       width: 100%;
-      border: 1px solid black;
+      display: flex;
+      // border: 1px solid black;
+
+      &-heading {
+        color: white;
+        margin: auto;
+
+        h2 {
+          font-size: 80px;
+          font-weight: 700px;
+        }
+
+        h3 {
+          font-size: 24px;
+          font-weight: 400;
+          text-align: center;
+        }
+
+        &-button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          button {
+            width: 170px;
+            height: 59px;
+            background-color: #FFFFFF1D;
+            border: 2px solid white;
+            border-radius: 25px;
+            font-family: 'Karla', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+            margin: 35px 10px;
+
+            &:hover {
+              background-color: transparent;
+            }
+          }
+        }
+      }
     }
     // End Jumbotron
 
