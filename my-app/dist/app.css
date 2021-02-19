@@ -26,7 +26,6 @@
   align-items: center;
   width: 116px;
   height: 100%;
-  border: 1px solid black;
   color: #64686c;
 }
 #root header #top-left i {
@@ -42,8 +41,26 @@
   align-items: center;
   width: 425px;
   height: 100%;
-  border: 1px solid black;
-  color: red;
+  font-family: "Karla", sans-serif;
+  font-size: 13px;
+  color: #64686c;
+}
+#root header #top-right div {
+  width: 112px;
+  height: 100%;
+  border-right: 1px solid #EAEAEA;
+  line-height: 52px;
+  text-align: center;
+  cursor: pointer;
+}
+#root header #top-right div:last-child {
+  width: 201px;
+  background-color: #fafafa;
+}
+#root header #top-right div i {
+  font-size: 9.5px;
+  margin: 0 0 0 9px;
+  color: inherit;
 }
 #root header #bottom {
   border-top: 1px solid #EAEAEA;

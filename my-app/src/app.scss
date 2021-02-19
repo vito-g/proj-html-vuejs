@@ -23,7 +23,7 @@
         @include flex-column-between;
         width: 116px;
         height: 100%;
-        border: 1px solid black;
+        // border: 1px solid black;
         color: $Nevada;
 
         i {
@@ -40,8 +40,32 @@
         @include flex-column-between;
         width: 425px;
         height: 100%;
-        border: 1px solid black;
-        color: red;
+        // border: 1px solid black;
+        font-family: 'Karla', sans-serif;
+        font-size: $minor-font;
+        color: $Nevada;
+
+        div {
+          width: 112px;
+          height: 100%;
+          border-right: 1px solid #EAEAEA;
+          line-height: 52px;
+          text-align: center;
+          cursor: pointer;
+
+          &:last-child {
+            width: 201px;
+            background-color: #fafafa;
+          }
+
+          i {
+            font-size: 9.5px;
+            margin: 0 0 0 9px;
+            color: inherit;
+          }
+
+        }
+
       }
     }
     // End Header Top
