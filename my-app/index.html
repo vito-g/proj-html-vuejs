@@ -26,45 +26,38 @@
         <!-- HEADER -->
         <header>
 
+
           <!-- Header Top -->
           <div id="top">
 
-
             <div id="top-left">
-
               <i v-for= "element in elIcons" :class="element"></i>
-
             </div>
 
-
             <div id="top-right">
-
               <div v-for="element in elShopping" id="element">
                 <i v-if="element ==='CART'" class="fas fa-shopping-cart" style="color:#2f3034; margin: 10px"></i>
                 {{element}}
                 <i v-if="element !== 'Shopping Cart'" class="fas fa-chevron-down"></i>
               </div>
-
             </div>
-
 
           </div>
           <!-- End Header Top -->
 
+
           <!-- Header Bottom -->
           <div id="bottom">
 
+            <!-- Header bottom Wrap -->
             <div id="bottom-wrap">
 
               <div id="bottom-wrap-left">
-
                 <img id="brand-logotype"src="img/images/classic_shop_logo1x.png" alt="">
-
               </div>
 
 
               <div id="bottom-wrap-right">
-
                 <ul>
                   <div v-for="element in ul" class="">
                     <li>
@@ -80,15 +73,15 @@
                     </li>
                   </div>
                 </ul>
-
                 <i class="fas fa-search"></i>
-
               </div>
 
             </div>
+            <!-- End Header bottom Wrap -->
 
           </div>
           <!-- End Header Bottom -->
+
 
           <!-- Jumbotron -->
           <div id="jumbotron">

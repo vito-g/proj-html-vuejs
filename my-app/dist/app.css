@@ -154,6 +154,9 @@
   right: 0;
   cursor: pointer;
 }
+#root header #bottom-wrap-right .fas.fa-search:hover {
+  color: #427ed5;
+}
 #root header #jumbotron {
   background-image: url("../img/images/home1_slide_three_bg_2.jpg");
   background-size: cover;

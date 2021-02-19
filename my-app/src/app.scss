@@ -156,9 +156,8 @@
               &:hover {
                 background-color: #4c8be0;
               }
-              
-            }
 
+            }
 
           }
 
@@ -166,9 +165,16 @@
             position: absolute;
             right: 0;
             cursor: pointer;
+
+            &:hover {
+              color: $Havelock-blue;
+            }
           }
+
         }
+
       }
+
     }
     // End Header Bottom
 
