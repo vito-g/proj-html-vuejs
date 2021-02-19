@@ -118,7 +118,7 @@
               <div class="stripe-a-wrap-box">
                   <div v-for="element in objFooter.topRatedProducts">
                     {{element.product}} <br>
-                     <i v-for="i in 5" class="fas fa-star"></i><br>
+                     <i v-for="i in element.vote" class="fas fa-star"></i><br>
                     {{element.cost}}
                   </div>
               </div>

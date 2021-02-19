@@ -13,9 +13,9 @@ new Vue({
      contact: {street: '12345 North Main Street,', state: 'New York, NY 555555', phone: 'Phone: 1.800.555.6789', email: 'Email: info@company.com', web: 'Web: Theme-fusion.com'},
 
      topRatedProducts: [
-       {product: 'Leather Gloves', vote: 'fas fa-star', cost: '$45'},
-       {product: 'Black Leather Jacket', vote: 'fas fa-star', cost: '$235 $200'},
-       {product: 'Spring Printed Dress', vote: 'fas fa-star', cost: '$47'}
+       {product: 'Leather Gloves', vote: 5, cost: '$45'},
+       {product: 'Black Leather Jacket', vote: 5, cost: '$235 $200'},
+       {product: 'Spring Printed Dress', vote: 5, cost: '$47'}
      ],
 
      recentPost: ['Aenean lobortis sapien enim viverra', 'Duis ac massa semper maximus', 'Nunc fermint nulla eu justo sem id', 'Aliquam posuere magna eget nibh', 'Cras ac   nulla ac consecte rutrum', 'Fusce mattis nunc ut aliquam'],
