@@ -136,13 +136,14 @@
   list-style-type: none;
 }
 #root header #bottom-wrap-right ul button {
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-family: "Karla", sans-serif;
   width: 122px;
   height: 37px;
-  border-radius: 25px;
-  border: none;
   background-color: #427ed5;
-  color: white;
-  cursor: pointer;
+  border: none;
 }
 #root header #bottom-wrap-right ul button:hover {
   background-color: #4c8be0;
@@ -179,15 +180,16 @@
   align-items: center;
 }
 #root header #jumbotron-heading-button button {
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-family: "Karla", sans-serif;
   width: 170px;
   height: 59px;
   background-color: #FFFFFF1D;
   border: 2px solid white;
-  border-radius: 25px;
-  font-family: "Karla", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: white;
   margin: 35px 10px;
 }
 #root header #jumbotron-heading-button button:hover {
