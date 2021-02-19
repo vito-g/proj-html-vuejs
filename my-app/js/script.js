@@ -6,6 +6,7 @@ new Vue({
    buttonShop: "SHOP NOW",
    elIcons: ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram","fab fa-youtube"],
    elShopping: ["Shopping Cart", "My Account", "CART"],
+   cart: '#2f3034'
  }
 });
 Vue.config.devtools = true;

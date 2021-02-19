@@ -56,6 +56,7 @@
 #root header #top-right div:last-child {
   width: 201px;
   background-color: #fafafa;
+  border: none;
 }
 #root header #top-right div i {
   font-size: 9.5px;
