@@ -115,11 +115,12 @@
                   </div>
               </div>
 
-              <div class="stripe-a-wrap-box">
+              <div  class="stripe-a-wrap-box">
                   <div v-for="element in objFooter.topRatedProducts">
                     {{element.product}} <br>
                      <i v-for="i in element.vote" class="fas fa-star"></i><br>
-                    {{element.cost}}
+                     <span v-if="element.cost.length == 1">{{element.cost[0]}}</span>
+                     <span v-else><del>{{element.cost[0]}}</del> <u>{{element.cost[1]}}</u> </span>
                   </div>
               </div>
 
