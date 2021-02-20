@@ -276,8 +276,6 @@
 
           }
 
-
-
           &:last-child {
             display: flex;
             flex-wrap: wrap;
@@ -287,7 +285,6 @@
             padding-left: 8px;
             padding-right: 8px;
 
-            // align-items: flex-start;
             #tag {
               border: 1px solid #35383c;
               height: 30.8px;
@@ -295,6 +292,7 @@
               padding: 0 10px;
               margin: 2px;
             }
+            
           }
         }
       }
