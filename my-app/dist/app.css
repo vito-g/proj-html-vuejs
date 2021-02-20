@@ -199,6 +199,11 @@
 #root header #jumbotron-heading-button button:hover {
   background-color: transparent;
 }
+#root footer {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
 #root footer .stripe-a {
   height: 482px;
   background-color: #2b2e32;
@@ -217,6 +222,16 @@
   color: white;
   padding-top: 74px;
 }
+#root footer .stripe-a-wrap-box div.central {
+  line-height: 1.87;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #35383c;
+}
+#root footer .stripe-a-wrap-box div.central i {
+  color: #427ed5;
+}
 #root footer .stripe-b {
   height: 121px;
   background-color: #1d1f22;
@@ -224,6 +239,6 @@
   justify-content: center;
 }
 #root footer .stripe-b-wrap {
-  width: calc(100% / 3);
+  width: 641px;
   border: 1px solid white;
 }
