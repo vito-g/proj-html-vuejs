@@ -13,8 +13,8 @@ new Vue({
 
      topRatedProducts: [
        {product: 'Leather Gloves', vote: 5, cost: ['$45']},
-       {product: 'Black Leather Jacket', vote: 5, cost: ['$235', '$200']},
-       {product: 'Spring Printed Dress', vote: 5, cost: ['$47']}
+       {product: 'Black Leather Jacket', vote: 4, cost: ['$235', '$200']},
+       {product: 'Spring Printed Dress', vote: 0, cost: ['$47']}
      ],
 
      recentPost: ['Aenean lobortis sapien enim viverra', 'Duis ac massa semper maximus', 'Nunc fermint nulla eu justo sem id', 'Aliquam posuere magna eget nibh', 'Cras ac   nulla ac consecte rutrum', 'Fusce mattis nunc ut aliquam'],
