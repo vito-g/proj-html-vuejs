@@ -232,16 +232,16 @@
 #root footer .stripe-a-wrap-box div.central i {
   color: #427ed5;
 }
-#root footer .stripe-a-wrap div:last-child {
+#root footer .stripe-a-wrap-box:last-child {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   flex-direction: row;
   align-content: flex-start;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
-#root footer .stripe-a-wrap div:last-child #tag {
+#root footer .stripe-a-wrap-box:last-child #tag {
   border: 1px solid #35383c;
   height: 30.8px;
   line-height: 30.8px;

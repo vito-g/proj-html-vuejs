@@ -278,23 +278,23 @@
 
 
 
-        }
-        div:last-child {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: flex-start;
-          flex-direction: row;
-          align-content: flex-start;
-          padding-left: 10px;
-          padding-right: 10px;
+          &:last-child {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-content: flex-start;
+            padding-left: 8px;
+            padding-right: 8px;
 
-          // align-items: flex-start;
-          #tag {
-            border: 1px solid #35383c;
-            height: 30.8px;
-            line-height: 30.8px;
-            padding: 0 10px;
-            margin: 2px;
+            // align-items: flex-start;
+            #tag {
+              border: 1px solid #35383c;
+              height: 30.8px;
+              line-height: 30.8px;
+              padding: 0 10px;
+              margin: 2px;
+            }
           }
         }
       }
