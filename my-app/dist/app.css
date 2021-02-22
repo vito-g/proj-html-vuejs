@@ -216,13 +216,17 @@
 #root footer .stripe-a-wrap-box {
   width: calc(100% / 4);
   height: 100%;
-  border: 1px solid white;
   color: white;
   padding-top: 74px;
 }
 #root footer .stripe-a-wrap-box .title {
-  margin: 0 0 43px 8px;
+  margin: 0 0 43px 0;
+  padding-left: 8px;
   width: 100%;
+}
+#root footer .stripe-a-wrap-box .title.post {
+  position: relative;
+  left: 8px;
 }
 #root footer .stripe-a-wrap-box .title.tag {
   position: relative;
