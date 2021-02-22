@@ -131,6 +131,12 @@
 
               <div  class="stripe-a-wrap-box">
 
+                <!-- Title -->
+                <div class="title">
+                    {{titleFooter[0]}}
+                </div>
+                <!-- End Title -->
+
                   <!-- Top Rated Products -->
                   <div class="central" v-for="element in objFooter.topRatedProducts">
                     <span id="product-name">{{element.product}}</span><br>
@@ -145,6 +151,12 @@
 
               <div class="stripe-a-wrap-box">
 
+                <!-- Title -->
+                <div class="title">
+                    {{titleFooter[1]}}
+                </div>
+                <!-- End Title -->
+
                   <!-- Recent Post -->
                   <div id="recent-post" class="central" v-for="element in objFooter.recentPost">
                     <i class="fas fa-chevron-right"></i>{{element}}
@@ -154,6 +166,12 @@
               </div>
 
               <div class="stripe-a-wrap-box">
+
+                <!-- Title -->
+                <div class="title tag">
+                    {{titleFooter[2]}}
+                </div>
+                <!-- End Title -->
 
                   <!-- Tag -->
                   <div id="tag" v-for="element in objFooter.tag">

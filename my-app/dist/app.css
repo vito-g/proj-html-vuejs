@@ -220,9 +220,17 @@
   color: white;
   padding-top: 74px;
 }
+#root footer .stripe-a-wrap-box .title {
+  margin: 0 0 43px 8px;
+  width: 100%;
+}
+#root footer .stripe-a-wrap-box .title.tag {
+  position: relative;
+  left: -6px;
+}
 #root footer .stripe-a-wrap-box #logo-footer img {
   width: 160px;
-  margin-bottom: 58px;
+  margin: 13px 0 58px;
 }
 #root footer .stripe-a-wrap-box #contact {
   line-height: 1.87;

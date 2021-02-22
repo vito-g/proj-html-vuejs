@@ -6,7 +6,7 @@ new Vue({
    buttonShop: "SHOP NOW!",
    elIcons: ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram","fab fa-youtube"],
    elShopping: ["Shopping Cart", "My Account", "CART"],
-   // titleFooter: ['TOP RATED PRODUCTS', 'RECENT POSTS', 'TAGS'],
+   titleFooter: ['TOP RATED PRODUCTS', 'RECENT POSTS', 'TAGS'],
    objFooter: {
 
      contact: {street: '12345 North Main Street,', state: 'New York, NY 555555', phone: 'Phone: 1.800.555.6789', email: 'Email: info@company.com', web: 'Web: Theme-fusion.com'},

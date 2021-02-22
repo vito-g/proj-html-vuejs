@@ -263,11 +263,21 @@
           color: white;
           padding-top: 74px;
 
+          .title {
+            margin: 0 0 43px 8px;
+            width: 100%;
+
+            &.tag {
+              position: relative;
+              left: -6px;
+            }
+          }
+
           #logo-footer {
 
             img {
               width: 160px;
-              margin-bottom: 58px;
+              margin: 13px 0 58px;
             }
 
           }
