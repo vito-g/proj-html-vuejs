@@ -235,6 +235,7 @@
   width: 116px;
   height: 106px;
   color: white;
+  cursor: pointer;
 }
 #root footer .stripe-a-wrap-box #social-icon-footer i {
   font-size: 16px;
@@ -272,6 +273,9 @@
   line-height: 30.8px;
   padding: 0 10px;
   margin: 2px;
+}
+#root footer .stripe-a-wrap-box:last-child #tag:hover {
+  background-color: #427ed5;
 }
 #root footer .stripe-a-wrap-box #recent-post:hover {
   color: #427ed5;
