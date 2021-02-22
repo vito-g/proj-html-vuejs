@@ -242,6 +242,9 @@
   padding: 14px 55px;
   border: 1px solid #eaeaea;
   background-color: #f6f6f6;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.73;
 }
 #root main #main-featured-products-make-choose div:hover {
   background-color: transparent;
@@ -261,6 +264,10 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 15px;
+  cursor: pointer;
+}
+#root main #main-featured-products-items .single-item .elName:hover {
+  color: #333333;
 }
 #root main #main-featured-products-items .single-item .elTag {
   font-family: "Karla", sans-serif;

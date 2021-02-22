@@ -300,6 +300,9 @@
           padding: 14px 55px;
           border: 1px solid #eaeaea;
           background-color: #f6f6f6;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 1.73;
 
           &:hover {
             background-color: transparent;
@@ -325,6 +328,11 @@
             font-family: $primary-font;
             font-weight: 700;
             font-size: 15px;
+            cursor: pointer;
+
+            &:hover {
+              color: $Havelock-blue;
+            }
           }
 
           .elTag {
