@@ -21,7 +21,9 @@ new Vue({
 
      tag: ['Black', 'boots', 'Brown', 'Casual', 'D&G', 'Fabric', 'flowers', 'Grey', 'hat', 'Hipster', 'lines', 'multi-purpose', 'New York', 'Outdoors', 'red', 'responsive', 'summer', 'sweater', 'Travel', 'Warm', 'White', 'winter'],
 
-     copyright: ['© Copyright 2012 - 2021', 'Avada Theme by Theme Fusion', 'All Rights Reserved', 'Powered by WordPress']
+     copyright: ['© Copyright 2012 - 2021', 'Avada Theme by Theme Fusion', 'All Rights Reserved', 'Powered by WordPress'],
+
+     cards: ['https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2015/09/payment_cards_footer.png']
    }
  }
 

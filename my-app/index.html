@@ -190,10 +190,13 @@
           <!-- Stripe b -->
           <div class="stripe-b">
             <div class="stripe-b-wrap">
-              <div v-for="element in objFooter.copyright" id="copyright">
-                <div class="">
+              <div class="stripe-b-wrap-top">
+                <div v-for="element in objFooter.copyright" id="copyright">
                   {{element}}
                 </div>
+              </div>
+              <div class="stripe-b-wrap-bottom" v-for="element in objFooter.cards" id="cards">
+                <img :src="element" alt="">
               </div>
             </div>
           </div>
