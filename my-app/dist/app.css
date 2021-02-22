@@ -8,7 +8,7 @@
   font-family: "Montserrat", sans-serif;
 }
 #root header {
-  border-top: 3px solid #427ed5;
+  border-top: 3px solid #333333;
 }
 #root header #top {
   width: 1169px;
@@ -116,7 +116,7 @@
   height: 3px;
   width: 100%;
   display: none;
-  background-color: #427ed5;
+  background-color: #333333;
   position: absolute;
   top: 0;
 }
@@ -128,7 +128,7 @@
   display: block;
 }
 #root header #bottom-wrap-right ul div li:hover {
-  color: #427ed5;
+  color: #333333;
 }
 #root header #bottom-wrap-right ul div li:last-child {
   list-style-type: none;
@@ -141,11 +141,11 @@
   font-weight: 700;
   width: 122px;
   height: 37px;
-  background-color: #427ed5;
+  background-color: #333333;
   border: none;
 }
 #root header #bottom-wrap-right ul button:hover {
-  background-color: #4c8be0;
+  background-color: #3d403e;
 }
 #root header #bottom-wrap-right .fas.fa-search {
   position: absolute;
@@ -153,7 +153,7 @@
   cursor: pointer;
 }
 #root header #bottom-wrap-right .fas.fa-search:hover {
-  color: #427ed5;
+  color: #333333;
 }
 #root header #jumbotron {
   background-image: url("../img/images/home1_slide_three_bg_2.jpg");
@@ -325,7 +325,7 @@
   cursor: pointer;
 }
 #root footer .stripe-a-wrap-box div.central i {
-  color: #427ed5;
+  color: #333333;
 }
 #root footer .stripe-a-wrap-box div.central i.fas.fa-chevron-right {
   font-size: 9.5px;
@@ -358,14 +358,14 @@
   cursor: pointer;
 }
 #root footer .stripe-a-wrap-box:last-child #tag:hover {
-  background-color: #427ed5;
+  background-color: #333333;
 }
 #root footer .stripe-a-wrap-box #recent-post:hover {
-  color: #427ed5;
+  color: #333333;
   cursor: pointer;
 }
 #root footer .stripe-a-wrap-box #recent-post:hover i {
-  color: #427ed5;
+  color: #333333;
 }
 #root footer .stripe-b {
   height: 121px;
