@@ -230,6 +230,12 @@
 #root footer .stripe-a-wrap-box div.central i {
   color: #427ed5;
 }
+#root footer .stripe-a-wrap-box div.central i.fas.fa-chevron-right {
+  font-size: 9.5px;
+  margin: 0 0 0 9px;
+  color: white;
+  margin-right: 7px;
+}
 #root footer .stripe-a-wrap-box:last-child {
   display: flex;
   flex-wrap: wrap;

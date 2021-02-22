@@ -272,6 +272,12 @@
 
             i {
               color: $Havelock-blue;
+
+              &.fas.fa-chevron-right {
+                @include custom-i;
+                color: white;
+                margin-right: 7px;
+              }
             }
 
           }
