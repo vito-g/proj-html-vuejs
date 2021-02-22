@@ -37,8 +37,6 @@
 #root header #top-right {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   width: 425px;
   height: 100%;
   font-family: "Karla", sans-serif;
