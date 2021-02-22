@@ -249,6 +249,9 @@
   margin: 0 8px 10px 8px;
   border-bottom: 1px solid #35383c;
 }
+#root footer .stripe-a-wrap-box div.central span#product-name {
+  cursor: pointer;
+}
 #root footer .stripe-a-wrap-box div.central i {
   color: #427ed5;
 }

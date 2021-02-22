@@ -299,6 +299,10 @@
             margin: 0 8px 10px 8px;
             border-bottom: 1px solid #35383c;
 
+            span#product-name {
+              cursor: pointer;
+            }
+
 
             i {
               color: $Havelock-blue;
