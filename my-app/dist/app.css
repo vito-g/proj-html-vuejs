@@ -264,7 +264,7 @@
   justify-content: flex-start;
   flex-direction: row;
   align-content: flex-start;
-  padding-left: 8px;
+  padding-left: 28px;
   padding-right: 8px;
 }
 #root footer .stripe-a-wrap-box:last-child #tag {
@@ -273,12 +273,14 @@
   line-height: 30.8px;
   padding: 0 10px;
   margin: 2px;
+  cursor: pointer;
 }
 #root footer .stripe-a-wrap-box:last-child #tag:hover {
   background-color: #427ed5;
 }
 #root footer .stripe-a-wrap-box #recent-post:hover {
   color: #427ed5;
+  cursor: pointer;
 }
 #root footer .stripe-a-wrap-box #recent-post:hover i {
   color: #427ed5;

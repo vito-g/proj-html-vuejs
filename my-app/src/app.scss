@@ -321,7 +321,7 @@
             justify-content: flex-start;
             flex-direction: row;
             align-content: flex-start;
-            padding-left: 8px;
+            padding-left: 28px;
             padding-right: 8px;
 
             #tag {
@@ -330,6 +330,7 @@
               line-height: 30.8px;
               padding: 0 10px;
               margin: 2px;
+              cursor: pointer;
 
               &:hover {
                 background-color: $Havelock-blue;
@@ -340,6 +341,7 @@
 
           #recent-post:hover {
             color: $Havelock-blue;
+            cursor: pointer;
 
             i {
               color: $Havelock-blue;
