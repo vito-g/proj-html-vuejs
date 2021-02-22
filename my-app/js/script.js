@@ -7,6 +7,16 @@ new Vue({
    elIcons: ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram","fab fa-youtube"],
    elShopping: ["Shopping Cart", "My Account", "CART"],
    titleFooter: ['TOP RATED PRODUCTS', 'RECENT POSTS', 'TAGS'],
+
+   objMain: {
+     poductsItems: [
+       {picture: 'img/images/black_elegant_leather_jacket-400x520.jpg'},
+       {picture: 'img/images/black_leather_suit-400x520.jpg'},
+       {picture: 'img/images/img/images/blue_jacket_and_white_stripe_tee-400x520.jpg'},
+       {picture: 'img/images/img/images/modern_black_leather_suit-400x520.jpg'}
+     ]
+   },
+
    objFooter: {
 
      contact: {street: '12345 North Main Street,', state: 'New York, NY 555555', phone: 'Phone: 1.800.555.6789', email: 'Email: info@company.com', web: 'Web: Theme-fusion.com'},
@@ -25,6 +35,8 @@ new Vue({
 
      cards: ['https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2015/09/payment_cards_footer.png']
    }
+
+
  }
 
 });

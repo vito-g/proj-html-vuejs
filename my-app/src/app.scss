@@ -246,11 +246,11 @@
     #main-featured-products {
       @include W-1169-container;
       height: 1034px;
-      border: 1px solid black;
+      // border: 1px solid black;
 
       &-top {
         height: 258px;
-        border: 1px solid black;
+        // border: 1px solid black;
         display: flex;
         flex-direction: row;
 
@@ -282,9 +282,44 @@
             }
 
           }
-          
+
         }
 
+
+      }
+
+      &-make-choose {
+        // width: 393px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        div {
+          height: 55.6px;
+          padding: 14px 55px;
+          border: 1px solid #eaeaea;
+          background-color: #f6f6f6;
+
+          &:hover {
+            background-color: transparent;
+          }
+        }
+
+      }
+
+      &-items {
+        display: flex;
+
+        .single-item {
+          width: calc(100% / 4);
+          margin-top: 55px;
+          // border: 1px solid red;
+
+          img {
+            width: 285px;
+          }
+
+        }
 
       }
 

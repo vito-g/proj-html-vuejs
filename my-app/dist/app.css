@@ -201,11 +201,9 @@
   width: 1169px;
   margin: auto;
   height: 1034px;
-  border: 1px solid black;
 }
 #root main #main-featured-products-top {
   height: 258px;
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
 }
@@ -233,6 +231,30 @@
   font-size: 18px;
   position: absolute;
   top: 60px;
+}
+#root main #main-featured-products-make-choose {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#root main #main-featured-products-make-choose div {
+  height: 55.6px;
+  padding: 14px 55px;
+  border: 1px solid #eaeaea;
+  background-color: #f6f6f6;
+}
+#root main #main-featured-products-make-choose div:hover {
+  background-color: transparent;
+}
+#root main #main-featured-products-items {
+  display: flex;
+}
+#root main #main-featured-products-items .single-item {
+  width: calc(100% / 4);
+  margin-top: 55px;
+}
+#root main #main-featured-products-items .single-item img {
+  width: 285px;
 }
 #root footer {
   font-family: "Karla", sans-serif;
