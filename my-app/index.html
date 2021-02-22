@@ -103,6 +103,32 @@
         <!-- END HEADER -->
 
 
+        <!-- MAIN -->
+        <main>
+
+          <!-- Featured Products -->
+          <div id="main-featured-products">
+
+            <div id="main-featured-products-top">
+              <div class="sx">
+              </div>
+              <div class="center">
+                <div>
+                  Featured Products
+                  <p>Must have products from our top sellers</p>
+                </div>
+              </div>
+              <div class="dx">
+              </div>
+            </div>
+
+          </div>
+          <!-- End Featured Products -->
+
+        </main>
+        <!-- END MAIN -->
+
+
         <!-- FOOTER -->
         <footer>
 
@@ -110,7 +136,7 @@
           <!-- Stripe a -->
           <div class="stripe-a">
 
-            <!-- Wrap A -->
+            <!-- Wrap a -->
             <div class="stripe-a-wrap">
 
               <div class="stripe-a-wrap-box">
@@ -135,7 +161,7 @@
                 <div class="title">
                     {{titleFooter[0]}}
                 </div>
-                <!-- End Title -->
+                <!-- End Title Top Rated Products-->
 
                   <!-- Top Rated Products -->
                   <div class="central" v-for="element in objFooter.topRatedProducts">
@@ -155,7 +181,7 @@
                 <div class="title post">
                     {{titleFooter[1]}}
                 </div>
-                <!-- End Title -->
+                <!-- End Title Recent Post-->
 
                   <!-- Recent Post -->
                   <div id="recent-post" class="central" v-for="element in objFooter.recentPost">
@@ -171,7 +197,7 @@
                 <div class="title tag">
                     {{titleFooter[2]}}
                 </div>
-                <!-- End Title -->
+                <!-- End Title Tag-->
 
                   <!-- Tag -->
                   <div id="tag" v-for="element in objFooter.tag">
@@ -182,10 +208,11 @@
               </div>
 
             </div>
-            <!-- End Wrap A -->
+            <!-- End Wrap a -->
 
           </div>
           <!-- End Stripe a -->
+
 
           <!-- Stripe b -->
           <div class="stripe-b">
