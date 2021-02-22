@@ -112,30 +112,46 @@
             <div class="stripe-a-wrap">
 
               <div class="stripe-a-wrap-box">
+
+                  <!-- Contact -->
                   <div v-for="element in objFooter.contact">
                     {{element}}
                   </div>
+                  <!-- End Contact -->
+
               </div>
 
               <div  class="stripe-a-wrap-box">
+
+                  <!-- Top Rated Products -->
                   <div class="central" v-for="element in objFooter.topRatedProducts">
                     {{element.product}} <br>
                     <i v-for="i in element.vote" class="fas fa-star"></i><i v-for="i in (5 - element.vote)" class="far fa-star"></i> <br>
                    <span v-if="element.cost.length == 1">{{element.cost[0]}}</span>
                    <span v-else><del>{{element.cost[0]}}</del> <u>{{element.cost[1]}}</u> </span>
                   </div>
+                  <!-- End Top Rated Products -->
+
               </div>
 
               <div class="stripe-a-wrap-box">
+
+                  <!-- Recent Post -->
                   <div class="central" v-for="element in objFooter.recentPost">
                     {{element}}
                   </div>
+                  <!-- End Recent Post -->
+
               </div>
 
               <div class="stripe-a-wrap-box">
+
+                  <!-- Tag -->
                   <div id="tag" v-for="element in objFooter.tag">
                     {{element}}
                   </div>
+                  <!-- End Tag -->
+                  
               </div>
 
             </div>
