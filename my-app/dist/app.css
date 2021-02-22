@@ -255,6 +255,38 @@
 }
 #root main #main-featured-products-items .single-item img {
   width: 285px;
+  margin-bottom: 15px;
+}
+#root main #main-featured-products-items .single-item .elName {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+#root main #main-featured-products-items .single-item .elTag {
+  font-family: "Karla", sans-serif;
+  font-size: 13px;
+}
+#root main #main-featured-products-items .single-item .elTag a {
+  text-decoration: none;
+  color: black;
+  line-height: 3;
+}
+#root main #main-featured-products-items .single-item .elTag a:hover {
+  color: #333333;
+}
+#root main #main-featured-products-items .single-item .elCost, #root main #main-featured-products-items .single-item .elDiscount {
+  color: #333333;
+}
+#root main #collection {
+  display: flex;
+  flex-direction: row;
+}
+#root main #collection .single-item {
+  width: calc(100% / 3);
+}
+#root main #collection .single-item img {
+  width: 100%;
+  vertical-align: middle;
 }
 #root footer {
   font-family: "Karla", sans-serif;
@@ -354,6 +386,7 @@
   height: 30.8px;
   line-height: 30.8px;
   padding: 0 10px;
+  font-size: 0.9em;
   margin: 2px;
   cursor: pointer;
 }

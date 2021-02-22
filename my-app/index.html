@@ -137,7 +137,14 @@
             </div>
 
             <div id="main-featured-products-items">
-              <div class="single-item">
+              <div v-for="element in objMain.productsItemsMan" class="single-item">
+                <img :src="element.picture" alt="">
+                <span class="elName">{{element.name}} </span><br>
+                <span class="elTag" v-for="i in element.tag"> <a href="#">{{i}} </a></span><br>
+                <span class="elCost" v-if="element.cost.length == 1">{{element.cost[0]}}</span>
+                <span class="elDiscount" v-else><del style="font-size: 13px">{{element.cost[0]}}</del> <u>{{element.cost[1]}}</u> </span>
+              </div>
+              <!-- <div class="single-item">
                 <img src="img/images/black_elegant_leather_jacket-400x520.jpg" alt="">
               </div>
               <div class="single-item">
@@ -148,13 +155,21 @@
               </div>
               <div class="single-item">
                   <img src="img/images/modern_black_leather_suit-400x520.jpg" alt="">
-              </div>
+              </div> -->
 
             </div>
+
 
           </div>
           <!-- End Featured Products -->
 
+          <!-- Collection -->
+          <div id="collection">
+            <div v-for="element in objMain.collection" class="single-item">
+              <img :src="element.picture" alt="">
+            </div>
+          </div>
+          <!-- End Collection -->
 
         </main>
         <!-- END MAIN -->

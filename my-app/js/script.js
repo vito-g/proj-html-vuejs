@@ -9,11 +9,18 @@ new Vue({
    titleFooter: ['TOP RATED PRODUCTS', 'RECENT POSTS', 'TAGS'],
 
    objMain: {
-     poductsItems: [
-       {picture: 'img/images/black_elegant_leather_jacket-400x520.jpg'},
-       {picture: 'img/images/black_leather_suit-400x520.jpg'},
-       {picture: 'img/images/img/images/blue_jacket_and_white_stripe_tee-400x520.jpg'},
-       {picture: 'img/images/img/images/modern_black_leather_suit-400x520.jpg'}
+
+     productsItemsMan: [
+       {picture: 'img/images/black_elegant_leather_jacket-400x520.jpg', name: 'Black Leather Jacket', tag: ['Men,', 'Jackets,', 'Jeans'], cost: ['$235', '$200']},
+       {picture: 'img/images/black_leather_suit-400x520.jpg', name: 'Black Leather Suit', tag: ['Jackets,', 'Men'], cost: ['$176']},
+       {picture: 'img/images/blue_jacket_and_white_stripe_tee-400x520.jpg', name: 'Blue Jacket & Stripe Tee', tag: ['Jackets,', 'Men,', 'Suits'], cost: ['$580']},
+       {picture: 'img/images/modern_black_leather_suit-400x520.jpg', name: 'Modern Black Leather Suit', tag: ['Jackets,', 'Men'], cost: ['$96']}
+     ],
+
+     collection: [
+       {picture: 'img/images/winter_collection_bg.jpg', name: 'Winter Collection', description: 'STYLISH AND WARM'},
+       {picture: 'img/images/spring_collection_bg.jpg', name: 'Spring Collection', description: 'BRIGHT AND COLORFUL'},
+       {picture: 'img/images/autumn_collection_bg.jpg', name: 'Autumn Collection', description: 'RICH AND COMFORTABLE'}
      ]
    },
 

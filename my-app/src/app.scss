@@ -3,6 +3,7 @@
 @import "layout";
 @import "brand-logotypes";
 @import "background-pictures";
+@import "fonts";
 @import "fonts-size";
 @import "button-style-basis";
 
@@ -13,7 +14,7 @@
 
 // CONTENITORE di TUTTO
 #root {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $primary-font;
 
   // HEADER
   header {
@@ -47,7 +48,7 @@
         width: 425px;
         height: 100%;
         // border: 1px solid black;
-        font-family: 'Karla', sans-serif;
+        font-family: $secondary-font;
         font-size: $minor-font;
         color: $Nevada;
 
@@ -274,7 +275,7 @@
             justify-content: center;
 
             p {
-              font-family: 'Karla', sans-serif;
+              font-family: $secondary-font;
               font-weight: 400;
               font-size: 18px;
               position: absolute;
@@ -317,6 +318,33 @@
 
           img {
             width: 285px;
+            margin-bottom: 15px;
+          }
+
+          .elName {
+            font-family: $primary-font;
+            font-weight: 700;
+            font-size: 15px;
+          }
+
+          .elTag {
+            font-family: $secondary-font;
+            font-size: $minor-font;
+
+            a {
+              text-decoration: none;
+              color: black;
+              line-height: 3;
+
+              &:hover {
+                color: $Havelock-blue;
+              }
+            }
+
+          }
+
+          .elCost, .elDiscount {
+            color: $Havelock-blue;
           }
 
         }
@@ -325,6 +353,20 @@
 
     }
 
+    #collection {
+      // height: 616px;
+      @include flex-column;
+
+      .single-item {
+        width: calc(100% / 3);
+
+        img {
+          width: 100%;
+          vertical-align: middle;
+        }
+
+      }
+    }
 
   }
   //End MAIN
@@ -332,7 +374,7 @@
 
   //FOOTER
   footer {
-    font-family: 'Karla', sans-serif;
+    font-family: $secondary-font;
     font-size: 15px;
     font-weight: 400;
 
@@ -448,6 +490,7 @@
               height: 30.8px;
               line-height: 30.8px;
               padding: 0 10px;
+              font-size: 0.9em;
               margin: 2px;
               cursor: pointer;
 
@@ -492,7 +535,7 @@
           #copyright {
             height: 15px;
             color: white;
-            font-family: 'Karla', sans-serif;
+            font-family: $secondary-font;
             font-size: $minor-font;
             border-right: 1px solid white;
             padding: 0 11px;
