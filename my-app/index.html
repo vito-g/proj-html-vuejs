@@ -137,6 +137,7 @@
                     <i v-for="i in element.vote" class="fas fa-star"></i><i v-for="i in (5 - element.vote)" class="far fa-star"></i> <br>
                    <span v-if="element.cost.length == 1">{{element.cost[0]}}</span>
                    <span v-else><del>{{element.cost[0]}}</del> <u>{{element.cost[1]}}</u> </span>
+                   <img :src="element.picture" alt="">
                   </div>
                   <!-- End Top Rated Products -->
 

@@ -248,6 +248,7 @@
   padding-bottom: 10px;
   margin: 0 8px 10px 8px;
   border-bottom: 1px solid #35383c;
+  position: relative;
 }
 #root footer .stripe-a-wrap-box div.central span#product-name {
   cursor: pointer;
@@ -260,6 +261,13 @@
   margin: 0 0 0 9px;
   color: white;
   margin-right: 7px;
+}
+#root footer .stripe-a-wrap-box div.central img {
+  width: 58px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
 }
 #root footer .stripe-a-wrap-box:last-child {
   display: flex;

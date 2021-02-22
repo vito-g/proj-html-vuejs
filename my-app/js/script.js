@@ -12,9 +12,9 @@ new Vue({
      contact: {street: '12345 North Main Street,', state: 'New York, NY 555555', phone: 'Phone: 1.800.555.6789', email: 'Email: info@company.com', web: 'Web: Theme-fusion.com'},
 
      topRatedProducts: [
-       {product: 'Leather Gloves', vote: 5, cost: ['$45']},
-       {product: 'Black Leather Jacket', vote: 4, cost: ['$235', '$200']},
-       {product: 'Spring Printed Dress', vote: 0, cost: ['$47']}
+       {product: 'Leather Gloves', vote: 5, cost: ['$45'], picture: 'img/images/leather_gloves-120x156.jpg'},
+       {product: 'Black Leather Jacket', vote: 4, cost: ['$235', '$200'], picture: 'img/images/black_elegant_leather_jacket-120x156.jpg'},
+       {product: 'Spring Printed Dress', vote: 0, cost: ['$47'], picture: 'img/images/spring_printed_dress-120x156.jpg'}
      ],
 
      recentPost: ['Aenean lobortis sapien enim viverra', 'Duis ac massa semper maximus', 'Nunc fermint nulla eu justo sem id', 'Aliquam posuere magna eget nibh', 'Cras ac   nulla ac consecte rutrum', 'Fusce mattis nunc ut aliquam'],
