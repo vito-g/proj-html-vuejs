@@ -43,7 +43,7 @@
       }
 
       &-right {
-        @include flex-column-between;
+        @include flex-column;
         width: 425px;
         height: 100%;
         // border: 1px solid black;
@@ -292,7 +292,7 @@
               padding: 0 10px;
               margin: 2px;
             }
-            
+
           }
         }
       }
