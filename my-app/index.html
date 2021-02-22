@@ -167,6 +167,15 @@
           <div id="collection">
             <div v-for="element in objMain.collection" class="single-item">
               <img :src="element.picture" alt="">
+              <div class="content">
+                <div class="elName">
+                  <h2>{{element.name}}</h2> 
+                </div>
+                <div class="elDescription">
+                  {{element.description}}
+                </div>
+                <button type="button" name="button">VIEW MORE</button>
+              </div>
             </div>
           </div>
           <!-- End Collection -->

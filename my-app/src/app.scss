@@ -354,18 +354,65 @@
     }
 
     #collection {
-      // height: 616px;
       @include flex-column;
 
       .single-item {
+        height: 535.43px;
         width: calc(100% / 3);
+        position: relative;
+        // border: 1px solid red;
+        overflow: hidden;
 
         img {
           width: 100%;
-          vertical-align: middle;
+          // vertical-align: middle;
         }
 
+        .content {
+          position: absolute;
+          top: 73%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          text-align: center;
+
+
+          .elName {
+
+            h2 {
+              font-family: $primary-font;
+              font-size: 38px;
+              color: white;
+              font-weight: 700;
+              margin-bottom: 20px;
+            }
+
+          }
+
+          .elDescription {
+            margin: 0 0 20px;
+            font-family: $secondary-font;
+            font-size: 18px;
+            letter-spacing: 3px;
+            color: white;
+          }
+
+          button {
+            @include button-basis;
+            padding: 11px 23px;
+            border: 2px solid white;
+            background-color: #FFFFFF1D;
+
+            &:hover {
+              background-color: transparent;
+            }
+          }
+
+        }
+
+
       }
+
     }
 
   }
