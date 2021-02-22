@@ -122,6 +122,9 @@
                   <div id="contact" v-for="element in objFooter.contact">
                     {{element}}
                   </div>
+                  <div id="social-icon-footer">
+                    <i v-for= "element in elIcons" :class="element"></i>
+                  </div>
                   <!-- End Contact -->
 
               </div>
@@ -142,7 +145,7 @@
               <div class="stripe-a-wrap-box">
 
                   <!-- Recent Post -->
-                  <div class="central" v-for="element in objFooter.recentPost">
+                  <div id="recent-post" class="central" v-for="element in objFooter.recentPost">
                     <i class="fas fa-chevron-right"></i>{{element}}
                   </div>
                   <!-- End Recent Post -->
