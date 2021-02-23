@@ -368,7 +368,8 @@
     }
 
     #main-best-seller, #main-from-blog {
-      height: 718px;
+      // height: 718px;
+      @include H-f-718-container;
     }
 
     #main-new-arrivals {
