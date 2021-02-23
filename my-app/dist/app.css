@@ -197,21 +197,21 @@
 #root header #jumbotron-heading-button button:hover {
   background-color: transparent;
 }
-#root main #main-featured-products, #root main #main-best-seller {
+#root main #main-featured-products, #root main #main-best-seller, #root main #main-new-arrivals, #root main #main-from-blog {
   width: 1169px;
   margin: auto;
   height: 1034px;
 }
-#root main #main-featured-products-top, #root main #main-featured-products #main-best-seller-top, #root main #main-best-seller-top, #root main #main-best-seller #main-best-seller-top {
+#root main #main-featured-products-top, #root main #main-featured-products #main-best-seller-top, #root main #main-featured-products #main-new-arrivals-top, #root main #main-featured-products #main-from-blog-top, #root main #main-best-seller-top, #root main #main-best-seller #main-best-seller-top, #root main #main-best-seller #main-new-arrivals-top, #root main #main-best-seller #main-from-blog-top, #root main #main-new-arrivals-top, #root main #main-new-arrivals #main-best-seller-top, #root main #main-new-arrivals #main-new-arrivals-top, #root main #main-new-arrivals #main-from-blog-top, #root main #main-from-blog-top, #root main #main-from-blog #main-best-seller-top, #root main #main-from-blog #main-new-arrivals-top, #root main #main-from-blog #main-from-blog-top {
   height: 258px;
   position: relative;
 }
-#root main #main-featured-products-top .behind, #root main #main-featured-products #main-best-seller-top .behind, #root main #main-best-seller-top .behind, #root main #main-best-seller #main-best-seller-top .behind {
+#root main #main-featured-products-top .behind, #root main #main-featured-products #main-best-seller-top .behind, #root main #main-featured-products #main-new-arrivals-top .behind, #root main #main-featured-products #main-from-blog-top .behind, #root main #main-best-seller-top .behind, #root main #main-best-seller #main-best-seller-top .behind, #root main #main-best-seller #main-new-arrivals-top .behind, #root main #main-best-seller #main-from-blog-top .behind, #root main #main-new-arrivals-top .behind, #root main #main-new-arrivals #main-best-seller-top .behind, #root main #main-new-arrivals #main-new-arrivals-top .behind, #root main #main-new-arrivals #main-from-blog-top .behind, #root main #main-from-blog-top .behind, #root main #main-from-blog #main-best-seller-top .behind, #root main #main-from-blog #main-new-arrivals-top .behind, #root main #main-from-blog #main-from-blog-top .behind {
   height: 50%;
   width: 100%;
   border-bottom: 1px solid #EAEAEA;
 }
-#root main #main-featured-products-top .center, #root main #main-featured-products #main-best-seller-top .center, #root main #main-best-seller-top .center, #root main #main-best-seller #main-best-seller-top .center {
+#root main #main-featured-products-top .center, #root main #main-featured-products #main-best-seller-top .center, #root main #main-featured-products #main-new-arrivals-top .center, #root main #main-featured-products #main-from-blog-top .center, #root main #main-best-seller-top .center, #root main #main-best-seller #main-best-seller-top .center, #root main #main-best-seller #main-new-arrivals-top .center, #root main #main-best-seller #main-from-blog-top .center, #root main #main-new-arrivals-top .center, #root main #main-new-arrivals #main-best-seller-top .center, #root main #main-new-arrivals #main-new-arrivals-top .center, #root main #main-new-arrivals #main-from-blog-top .center, #root main #main-from-blog-top .center, #root main #main-from-blog #main-best-seller-top .center, #root main #main-from-blog #main-new-arrivals-top .center, #root main #main-from-blog #main-from-blog-top .center {
   height: 100%;
   padding: 45px;
   font-size: 38px;
@@ -222,11 +222,11 @@
   background-color: white;
   display: flex;
 }
-#root main #main-featured-products-top .center div, #root main #main-featured-products #main-best-seller-top .center div, #root main #main-best-seller-top .center div, #root main #main-best-seller #main-best-seller-top .center div {
+#root main #main-featured-products-top .center div, #root main #main-featured-products #main-best-seller-top .center div, #root main #main-featured-products #main-new-arrivals-top .center div, #root main #main-featured-products #main-from-blog-top .center div, #root main #main-best-seller-top .center div, #root main #main-best-seller #main-best-seller-top .center div, #root main #main-best-seller #main-new-arrivals-top .center div, #root main #main-best-seller #main-from-blog-top .center div, #root main #main-new-arrivals-top .center div, #root main #main-new-arrivals #main-best-seller-top .center div, #root main #main-new-arrivals #main-new-arrivals-top .center div, #root main #main-new-arrivals #main-from-blog-top .center div, #root main #main-from-blog-top .center div, #root main #main-from-blog #main-best-seller-top .center div, #root main #main-from-blog #main-new-arrivals-top .center div, #root main #main-from-blog #main-from-blog-top .center div {
   margin: auto;
   font-weight: 700;
 }
-#root main #main-featured-products-top p, #root main #main-featured-products #main-best-seller-top p, #root main #main-best-seller-top p, #root main #main-best-seller #main-best-seller-top p {
+#root main #main-featured-products-top p, #root main #main-featured-products #main-best-seller-top p, #root main #main-featured-products #main-new-arrivals-top p, #root main #main-featured-products #main-from-blog-top p, #root main #main-best-seller-top p, #root main #main-best-seller #main-best-seller-top p, #root main #main-best-seller #main-new-arrivals-top p, #root main #main-best-seller #main-from-blog-top p, #root main #main-new-arrivals-top p, #root main #main-new-arrivals #main-best-seller-top p, #root main #main-new-arrivals #main-new-arrivals-top p, #root main #main-new-arrivals #main-from-blog-top p, #root main #main-from-blog-top p, #root main #main-from-blog #main-best-seller-top p, #root main #main-from-blog #main-new-arrivals-top p, #root main #main-from-blog #main-from-blog-top p {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -235,12 +235,12 @@
   text-align: center;
   width: 100%;
 }
-#root main #main-featured-products-make-choose, #root main #main-best-seller-make-choose {
+#root main #main-featured-products-make-choose, #root main #main-best-seller-make-choose, #root main #main-new-arrivals-make-choose, #root main #main-from-blog-make-choose {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-#root main #main-featured-products-make-choose div, #root main #main-best-seller-make-choose div {
+#root main #main-featured-products-make-choose div, #root main #main-best-seller-make-choose div, #root main #main-new-arrivals-make-choose div, #root main #main-from-blog-make-choose div {
   height: 55.6px;
   padding: 14px 55px;
   border: 1px solid #eaeaea;
@@ -249,45 +249,51 @@
   font-size: 15px;
   line-height: 1.73;
 }
-#root main #main-featured-products-make-choose div:hover, #root main #main-best-seller-make-choose div:hover {
+#root main #main-featured-products-make-choose div:hover, #root main #main-best-seller-make-choose div:hover, #root main #main-new-arrivals-make-choose div:hover, #root main #main-from-blog-make-choose div:hover {
   background-color: transparent;
 }
-#root main #main-featured-products-items, #root main #main-best-seller-items {
+#root main #main-featured-products-items, #root main #main-best-seller-items, #root main #main-new-arrivals-items, #root main #main-from-blog-items {
   display: flex;
 }
-#root main #main-featured-products-items .single-item, #root main #main-best-seller-items .single-item {
+#root main #main-featured-products-items .single-item, #root main #main-best-seller-items .single-item, #root main #main-new-arrivals-items .single-item, #root main #main-from-blog-items .single-item {
   width: calc(100% / 4);
   margin-top: 55px;
 }
-#root main #main-featured-products-items .single-item img, #root main #main-best-seller-items .single-item img {
+#root main #main-featured-products-items .single-item img, #root main #main-best-seller-items .single-item img, #root main #main-new-arrivals-items .single-item img, #root main #main-from-blog-items .single-item img {
   width: 285px;
   margin-bottom: 15px;
 }
-#root main #main-featured-products-items .single-item .elName, #root main #main-best-seller-items .single-item .elName {
+#root main #main-featured-products-items .single-item .elName, #root main #main-best-seller-items .single-item .elName, #root main #main-new-arrivals-items .single-item .elName, #root main #main-from-blog-items .single-item .elName {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
 }
-#root main #main-featured-products-items .single-item .elName:hover, #root main #main-best-seller-items .single-item .elName:hover {
+#root main #main-featured-products-items .single-item .elName:hover, #root main #main-best-seller-items .single-item .elName:hover, #root main #main-new-arrivals-items .single-item .elName:hover, #root main #main-from-blog-items .single-item .elName:hover {
   color: #427ed5;
 }
-#root main #main-featured-products-items .single-item .elTag, #root main #main-best-seller-items .single-item .elTag {
+#root main #main-featured-products-items .single-item .elTag, #root main #main-best-seller-items .single-item .elTag, #root main #main-new-arrivals-items .single-item .elTag, #root main #main-from-blog-items .single-item .elTag {
   font-family: "Karla", sans-serif;
   font-size: 13px;
 }
-#root main #main-featured-products-items .single-item .elTag a, #root main #main-best-seller-items .single-item .elTag a {
+#root main #main-featured-products-items .single-item .elTag a, #root main #main-best-seller-items .single-item .elTag a, #root main #main-new-arrivals-items .single-item .elTag a, #root main #main-from-blog-items .single-item .elTag a {
   text-decoration: none;
   color: black;
   line-height: 3;
 }
-#root main #main-featured-products-items .single-item .elTag a:hover, #root main #main-best-seller-items .single-item .elTag a:hover {
+#root main #main-featured-products-items .single-item .elTag a:hover, #root main #main-best-seller-items .single-item .elTag a:hover, #root main #main-new-arrivals-items .single-item .elTag a:hover, #root main #main-from-blog-items .single-item .elTag a:hover {
   color: #427ed5;
 }
-#root main #main-featured-products-items .single-item .elCost, #root main #main-featured-products-items .single-item .elDiscount, #root main #main-best-seller-items .single-item .elCost, #root main #main-best-seller-items .single-item .elDiscount {
+#root main #main-featured-products-items .single-item .elCost, #root main #main-featured-products-items .single-item .elDiscount, #root main #main-best-seller-items .single-item .elCost, #root main #main-best-seller-items .single-item .elDiscount, #root main #main-new-arrivals-items .single-item .elCost, #root main #main-new-arrivals-items .single-item .elDiscount, #root main #main-from-blog-items .single-item .elCost, #root main #main-from-blog-items .single-item .elDiscount {
   color: #427ed5;
 }
 #root main #main-best-seller {
+  height: 718px;
+}
+#root main #main-new-arrivals {
+  height: 718px;
+}
+#root main #main-from-blog {
   height: 718px;
 }
 #root main #collection {

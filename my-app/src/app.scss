@@ -247,12 +247,12 @@
   //MAIN
   main {
 
-    #main-featured-products, #main-best-seller {
+    #main-featured-products, #main-best-seller, #main-new-arrivals, #main-from-blog {
       @include W-1169-container;
       height: 1034px;
       // border: 1px solid black;
 
-      &-top, #main-best-seller-top {
+      &-top, #main-best-seller-top, #main-new-arrivals-top, #main-from-blog-top {
         height: 258px;
         position: relative;
 
@@ -368,6 +368,14 @@
     }
 
     #main-best-seller {
+      height: 718px;
+    }
+
+    #main-new-arrivals {
+      height: 718px;
+    }
+
+    #main-from-blog {
       height: 718px;
     }
 
