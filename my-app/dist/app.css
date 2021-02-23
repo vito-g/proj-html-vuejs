@@ -370,7 +370,20 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid red;
+}
+#root main #main-free-shipping-band .wrap .single-item .info-box h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#root main #main-free-shipping-band .wrap .single-item .info-box p {
+  margin: 0 0 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: white;
 }
 #root main #main-free-shipping-band .wrap .single-item .info-box button {
   border-radius: 25px;

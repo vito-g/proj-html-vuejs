@@ -36,12 +36,6 @@ new Vue({
        {picture: 'img/images/promo_box_2_bg.jpg', heading: 'Free Shipping', payoff: 'payoff'}
      ]
 
-     // mainFreeShippingBand: [
-     //   {picture: 'img/images/promo_box_1_bg.jpg', heading: '70% Off', payoff: 'Vivamus tempor leo lacus, feugiat
-     //   ut magna aliquam erat.'},
-     //   {picture: 'img/images/promo_box_2_bg.jpg', heading: 'Free Shipping', payoff: 'Vivamus tempor leo lacus, feugiat ut magna aliquam erat.'}
-     // ]
-
    },
 
    objFooter: {
