@@ -287,14 +287,11 @@
 #root main #main-featured-products-items .single-item .elCost, #root main #main-featured-products-items .single-item .elDiscount, #root main #main-best-seller-items .single-item .elCost, #root main #main-best-seller-items .single-item .elDiscount, #root main #main-new-arrivals-items .single-item .elCost, #root main #main-new-arrivals-items .single-item .elDiscount, #root main #main-from-blog-items .single-item .elCost, #root main #main-from-blog-items .single-item .elDiscount {
   color: #427ed5;
 }
-#root main #main-best-seller {
+#root main #main-best-seller, #root main #main-from-blog {
   height: 718px;
 }
 #root main #main-new-arrivals {
-  height: 718px;
-}
-#root main #main-from-blog {
-  height: 718px;
+  height: 922px;
 }
 #root main #collection {
   display: flex;
