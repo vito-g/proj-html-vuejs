@@ -32,9 +32,15 @@ new Vue({
      ],
 
      mainFreeShippingBand: [
-       {picture: 'img/images/promo_box_1_bg.jpg'},
-       {picture: 'img/images/promo_box_2_bg.jpg'}
+       {picture: 'img/images/promo_box_1_bg.jpg', heading: '70% Off'},
+       {picture: 'img/images/promo_box_2_bg.jpg', heading: 'Free Shipping'}
      ]
+
+     // mainFreeShippingBand: [
+     //   {picture: 'img/images/promo_box_1_bg.jpg', heading: '70% Off', payoff: 'Vivamus tempor leo lacus, feugiat
+     //   ut magna aliquam erat.'},
+     //   {picture: 'img/images/promo_box_2_bg.jpg', heading: 'Free Shipping', payoff: 'Vivamus tempor leo lacus, feugiat ut magna aliquam erat.'}
+     // ]
 
    },
 
