@@ -192,9 +192,29 @@
               <p>Must have products from our top sellers</p>
             </div>
 
+
+            <div id="main-best-seller-items">
+
+              <div v-for="element in objMain.bestSellerItems" class="single-item">
+                <img :src="element.picture" alt="">
+              </div>
+
+            </div>
+
+
+
           </div>
           <!-- End Best Seller -->
 
+          <div id="main-free-shipping-band">
+
+            <div class="wrap">
+              <div v-for="element in objMain.bestSellerItemsBottom" class="single-item">
+                <img :src="element.picture" alt="">
+              </div>
+            </div>
+
+          </div>
 
           <!-- New Arrivals -->
           <div id="main-new-arrivals">

@@ -369,23 +369,6 @@
 
     }
 
-
-
-    //Sections Height
-    #main-featured-products {
-      height: 1034px;
-    }
-
-    #main-best-seller, #main-from-blog {
-      // height: 718px;
-      @include H-f-718-container;
-    }
-
-    #main-new-arrivals {
-      height: 922px;
-    }
-    //End Sections Height
-
     #collection {
       @include flex-column;
 
@@ -446,6 +429,71 @@
       }
 
     }
+
+
+    //Sections Height
+    #main-featured-products {
+      height: 1034px;
+    }
+
+    #main-best-seller, #main-from-blog {
+      // height: 718px;
+      @include H-f-718-container;
+    }
+
+    #main-free-shipping-band {
+      height: 550px;
+      width: 100%;
+      border: 1px solid black;
+      background-image: url($free-shipping-section-image);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+
+      .wrap {
+        @include W-1169-container;
+        margin: auto;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+
+        .single-item {
+
+          img {
+            width: 560px;
+            vertical-align: middle;
+          }
+
+        }
+
+      }
+
+    }
+
+    #main-new-arrivals {
+      height: 922px;
+    }
+    //End Sections Height
+
+
+    #main-best-seller-items {
+      // height: 323.8px;
+      padding: 8px 0;
+
+      .single-item {
+        height: auto;
+
+        img {
+          width: 234px;
+        }
+
+      }
+
+    }
+
+
+
+
 
   }
   //End MAIN
@@ -531,7 +579,6 @@
             span#product-name {
               cursor: pointer;
             }
-
 
             i {
               color: $Havelock-blue;

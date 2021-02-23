@@ -21,7 +21,21 @@ new Vue({
        {picture: 'img/images/winter_collection_bg.jpg', name: 'Winter Collection', description: 'STYLISH AND WARM'},
        {picture: 'img/images/spring_collection_bg.jpg', name: 'Spring Collection', description: 'BRIGHT AND COLORFUL'},
        {picture: 'img/images/autumn_collection_bg.jpg', name: 'Autumn Collection', description: 'RICH AND COMFORTABLE'}
+     ],
+
+     bestSellerItems: [
+       {picture: 'img/images/spring_printed_dress-400x520.jpg'},
+       {picture: 'img/images/modern_love_tee-400x520.jpg'},
+       {picture: 'img/images/black_leather_jacket-400x520.jpg'},
+       {picture: 'img/images/black_elegant_leather_jacket-400x520.jpg'},
+       {picture: 'img/images/hipster_black_top-400x520.jpg'},
+     ],
+
+     bestSellerItemsBottom: [
+       {picture: 'img/images/promo_box_1_bg.jpg'},
+       {picture: 'img/images/promo_box_2_bg.jpg'}
      ]
+
    },
 
    objFooter: {
