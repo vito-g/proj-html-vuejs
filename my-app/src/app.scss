@@ -458,10 +458,21 @@
         justify-content: space-between;
 
         .single-item {
+          position: relative;
 
           img {
             width: 560px;
             vertical-align: middle;
+          }
+
+          .info-box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid red;
           }
 
         }
