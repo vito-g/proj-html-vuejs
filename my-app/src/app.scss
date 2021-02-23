@@ -244,46 +244,90 @@
   //MAIN
   main {
 
-    #main-featured-products {
+    #main-featured-products, #main-best-seller {
       @include W-1169-container;
       height: 1034px;
       // border: 1px solid black;
+      //
+      // &-top {
+      //   height: 258px;
+      //   // border: 1px solid black;
+      //   display: flex;
+      //   flex-direction: row;
+      //
+      //   .sx, .dx {
+      //     height: 50%;
+      //     width: calc((100% / 3) - 25px);
+      //     border-bottom: 1px solid #EAEAEA;
+      //   }
+      //
+      //   .center {
+      //     height: 100%;
+      //     width: calc((100% / 3) + 50px);
+      //     font-size: 38px;
+      //     display: flex;
+      //
+      //     div {
+      //       margin: auto;
+      //       font-weight: 700;
+      //       position: relative;
+      //       display:flex;
+      //       justify-content: center;
+      //
+      //       p {
+      //         font-family: $secondary-font;
+      //         font-weight: 400;
+      //         font-size: 18px;
+      //         position: absolute;
+      //         top: 60px;
+      //       }
+      //
+      //     }
+      //
+      //   }
+      //
+      //
+      // }
 
       &-top {
         height: 258px;
         // border: 1px solid black;
-        display: flex;
-        flex-direction: row;
+        // display: flex;
+        // flex-direction: row;
+        position: relative;
 
-        .sx, .dx {
+        .behind {
           height: 50%;
-          width: calc((100% / 3) - 25px);
+          width: 100%;
           border-bottom: 1px solid #EAEAEA;
         }
 
         .center {
           height: 100%;
-          width: calc((100% / 3) + 50px);
+          padding: 45px;
           font-size: 38px;
+          position: absolute;
+          left: 50%;
+          top: 0;
+          transform: translate(-50%);
+          background-color: white;
           display: flex;
 
           div {
             margin: auto;
             font-weight: 700;
-            position: relative;
-            display:flex;
-            justify-content: center;
-
-            p {
-              font-family: $secondary-font;
-              font-weight: 400;
-              font-size: 18px;
-              position: absolute;
-              top: 60px;
-            }
-
           }
 
+        }
+
+        p {
+          font-family: $secondary-font;
+          font-weight: 400;
+          font-size: 18px;
+          position: absolute;
+          top: 65%;
+          text-align: center;
+          width: 100%;
         }
 
 

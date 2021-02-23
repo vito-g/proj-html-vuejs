@@ -109,18 +109,18 @@
           <!-- Featured Products -->
           <div id="main-featured-products">
 
+
             <div id="main-featured-products-top">
-              <div class="sx">
+              <div class="behind">
               </div>
               <div class="center">
                 <div>
                   Featured Products
-                  <p>Must have products from our top sellers</p>
                 </div>
               </div>
-              <div class="dx">
-              </div>
+              <p>Must have products from our top sellers</p>
             </div>
+
 
             <div id="main-featured-products-make-choose">
 
@@ -163,13 +163,15 @@
           </div>
           <!-- End Featured Products -->
 
+
+
           <!-- Collection -->
           <div id="collection">
             <div v-for="element in objMain.collection" class="single-item">
               <img :src="element.picture" alt="">
               <div class="content">
                 <div class="elName">
-                  <h2>{{element.name}}</h2> 
+                  <h2>{{element.name}}</h2>
                 </div>
                 <div class="elDescription">
                   {{element.description}}
@@ -179,6 +181,40 @@
             </div>
           </div>
           <!-- End Collection -->
+
+          <!-- Best Seller -->
+          <!-- <div id="main-best-seller">
+
+            <div id="main-best-seller-top">
+              <div class="sx">
+              </div>
+              <div class="center">
+                <div>
+                  Best Seller
+                  <p>Must have products from our top sellers</p>
+                </div>
+              </div>
+              <div class="dx">
+              </div>
+            </div>
+          </div> -->
+          <!-- End Best Seller -->
+          <!-- Best Seller -->
+          <div id="main-best-seller">
+
+            <div id="main-best-seller-top">
+              <div class="behind">
+              </div>
+              <div class="center">
+                <div>
+                  Best Seller
+                </div>
+              </div>
+              <p>Must have products from our top sellers</p>
+            </div>
+
+          </div>
+          <!-- End Best Seller -->
 
         </main>
         <!-- END MAIN -->

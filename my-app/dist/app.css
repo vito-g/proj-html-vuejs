@@ -8,7 +8,7 @@
   font-family: "Montserrat", sans-serif;
 }
 #root header {
-  border-top: 3px solid #333333;
+  border-top: 3px solid #427ed5;
 }
 #root header #top {
   width: 1169px;
@@ -116,7 +116,7 @@
   height: 3px;
   width: 100%;
   display: none;
-  background-color: #333333;
+  background-color: #427ed5;
   position: absolute;
   top: 0;
 }
@@ -128,7 +128,7 @@
   display: block;
 }
 #root header #bottom-wrap-right ul div li:hover {
-  color: #333333;
+  color: #427ed5;
 }
 #root header #bottom-wrap-right ul div li:last-child {
   list-style-type: none;
@@ -141,11 +141,11 @@
   font-weight: 700;
   width: 122px;
   height: 37px;
-  background-color: #333333;
+  background-color: #427ed5;
   border: none;
 }
 #root header #bottom-wrap-right ul button:hover {
-  background-color: #3d403e;
+  background-color: #333333;
 }
 #root header #bottom-wrap-right .fas.fa-search {
   position: absolute;
@@ -153,7 +153,7 @@
   cursor: pointer;
 }
 #root header #bottom-wrap-right .fas.fa-search:hover {
-  color: #333333;
+  color: #427ed5;
 }
 #root header #jumbotron {
   background-image: url("../img/images/home1_slide_three_bg_2.jpg");
@@ -197,47 +197,50 @@
 #root header #jumbotron-heading-button button:hover {
   background-color: transparent;
 }
-#root main #main-featured-products {
+#root main #main-featured-products, #root main #main-best-seller {
   width: 1169px;
   margin: auto;
   height: 1034px;
 }
-#root main #main-featured-products-top {
+#root main #main-featured-products-top, #root main #main-best-seller-top {
   height: 258px;
-  display: flex;
-  flex-direction: row;
+  position: relative;
 }
-#root main #main-featured-products-top .sx, #root main #main-featured-products-top .dx {
+#root main #main-featured-products-top .behind, #root main #main-best-seller-top .behind {
   height: 50%;
-  width: calc((100% / 3) - 25px);
+  width: 100%;
   border-bottom: 1px solid #EAEAEA;
 }
-#root main #main-featured-products-top .center {
+#root main #main-featured-products-top .center, #root main #main-best-seller-top .center {
   height: 100%;
-  width: calc((100% / 3) + 50px);
+  padding: 45px;
   font-size: 38px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+  background-color: white;
   display: flex;
 }
-#root main #main-featured-products-top .center div {
+#root main #main-featured-products-top .center div, #root main #main-best-seller-top .center div {
   margin: auto;
   font-weight: 700;
-  position: relative;
-  display: flex;
-  justify-content: center;
 }
-#root main #main-featured-products-top .center div p {
+#root main #main-featured-products-top p, #root main #main-best-seller-top p {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   font-size: 18px;
   position: absolute;
-  top: 60px;
+  top: 65%;
+  text-align: center;
+  width: 100%;
 }
-#root main #main-featured-products-make-choose {
+#root main #main-featured-products-make-choose, #root main #main-best-seller-make-choose {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-#root main #main-featured-products-make-choose div {
+#root main #main-featured-products-make-choose div, #root main #main-best-seller-make-choose div {
   height: 55.6px;
   padding: 14px 55px;
   border: 1px solid #eaeaea;
@@ -246,43 +249,43 @@
   font-size: 15px;
   line-height: 1.73;
 }
-#root main #main-featured-products-make-choose div:hover {
+#root main #main-featured-products-make-choose div:hover, #root main #main-best-seller-make-choose div:hover {
   background-color: transparent;
 }
-#root main #main-featured-products-items {
+#root main #main-featured-products-items, #root main #main-best-seller-items {
   display: flex;
 }
-#root main #main-featured-products-items .single-item {
+#root main #main-featured-products-items .single-item, #root main #main-best-seller-items .single-item {
   width: calc(100% / 4);
   margin-top: 55px;
 }
-#root main #main-featured-products-items .single-item img {
+#root main #main-featured-products-items .single-item img, #root main #main-best-seller-items .single-item img {
   width: 285px;
   margin-bottom: 15px;
 }
-#root main #main-featured-products-items .single-item .elName {
+#root main #main-featured-products-items .single-item .elName, #root main #main-best-seller-items .single-item .elName {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
 }
-#root main #main-featured-products-items .single-item .elName:hover {
-  color: #333333;
+#root main #main-featured-products-items .single-item .elName:hover, #root main #main-best-seller-items .single-item .elName:hover {
+  color: #427ed5;
 }
-#root main #main-featured-products-items .single-item .elTag {
+#root main #main-featured-products-items .single-item .elTag, #root main #main-best-seller-items .single-item .elTag {
   font-family: "Karla", sans-serif;
   font-size: 13px;
 }
-#root main #main-featured-products-items .single-item .elTag a {
+#root main #main-featured-products-items .single-item .elTag a, #root main #main-best-seller-items .single-item .elTag a {
   text-decoration: none;
   color: black;
   line-height: 3;
 }
-#root main #main-featured-products-items .single-item .elTag a:hover {
-  color: #333333;
+#root main #main-featured-products-items .single-item .elTag a:hover, #root main #main-best-seller-items .single-item .elTag a:hover {
+  color: #427ed5;
 }
-#root main #main-featured-products-items .single-item .elCost, #root main #main-featured-products-items .single-item .elDiscount {
-  color: #333333;
+#root main #main-featured-products-items .single-item .elCost, #root main #main-featured-products-items .single-item .elDiscount, #root main #main-best-seller-items .single-item .elCost, #root main #main-best-seller-items .single-item .elDiscount {
+  color: #427ed5;
 }
 #root main #collection {
   display: flex;
@@ -401,7 +404,7 @@
   cursor: pointer;
 }
 #root footer .stripe-a-wrap-box div.central i {
-  color: #333333;
+  color: #427ed5;
 }
 #root footer .stripe-a-wrap-box div.central i.fas.fa-chevron-right {
   font-size: 9.5px;
@@ -435,14 +438,14 @@
   cursor: pointer;
 }
 #root footer .stripe-a-wrap-box:last-child #tag:hover {
-  background-color: #333333;
+  background-color: #427ed5;
 }
 #root footer .stripe-a-wrap-box #recent-post:hover {
-  color: #333333;
+  color: #427ed5;
   cursor: pointer;
 }
 #root footer .stripe-a-wrap-box #recent-post:hover i {
-  color: #333333;
+  color: #427ed5;
 }
 #root footer .stripe-b {
   height: 121px;
