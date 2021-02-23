@@ -200,7 +200,6 @@
 #root main #main-featured-products, #root main #main-best-seller, #root main #main-new-arrivals, #root main #main-from-blog {
   width: 1169px;
   margin: auto;
-  height: 1034px;
 }
 #root main #main-featured-products-top, #root main #main-featured-products #main-best-seller-top, #root main #main-featured-products #main-new-arrivals-top, #root main #main-featured-products #main-from-blog-top, #root main #main-best-seller-top, #root main #main-best-seller #main-best-seller-top, #root main #main-best-seller #main-new-arrivals-top, #root main #main-best-seller #main-from-blog-top, #root main #main-new-arrivals-top, #root main #main-new-arrivals #main-best-seller-top, #root main #main-new-arrivals #main-new-arrivals-top, #root main #main-new-arrivals #main-from-blog-top, #root main #main-from-blog-top, #root main #main-from-blog #main-best-seller-top, #root main #main-from-blog #main-new-arrivals-top, #root main #main-from-blog #main-from-blog-top {
   height: 258px;
@@ -286,6 +285,9 @@
 }
 #root main #main-featured-products-items .single-item .elCost, #root main #main-featured-products-items .single-item .elDiscount, #root main #main-best-seller-items .single-item .elCost, #root main #main-best-seller-items .single-item .elDiscount, #root main #main-new-arrivals-items .single-item .elCost, #root main #main-new-arrivals-items .single-item .elDiscount, #root main #main-from-blog-items .single-item .elCost, #root main #main-from-blog-items .single-item .elDiscount {
   color: #427ed5;
+}
+#root main #main-featured-products {
+  height: 1034px;
 }
 #root main #main-best-seller, #root main #main-from-blog {
   height: 718px;

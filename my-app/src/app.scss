@@ -244,14 +244,15 @@
   }
   // End HEADER
 
+
   //MAIN
   main {
 
     #main-featured-products, #main-best-seller, #main-new-arrivals, #main-from-blog {
       @include W-1169-container;
-      height: 1034px;
       // border: 1px solid black;
 
+      //Sections Utility
       &-top, #main-best-seller-top, #main-new-arrivals-top, #main-from-blog-top {
         height: 258px;
         position: relative;
@@ -291,6 +292,7 @@
         }
 
       }
+      //End Sections Utility
 
       &-make-choose {
         // width: 393px;
@@ -367,6 +369,13 @@
 
     }
 
+
+
+    //Sections Height
+    #main-featured-products {
+      height: 1034px;
+    }
+
     #main-best-seller, #main-from-blog {
       // height: 718px;
       @include H-f-718-container;
@@ -375,6 +384,7 @@
     #main-new-arrivals {
       height: 922px;
     }
+    //End Sections Height
 
     #collection {
       @include flex-column;
