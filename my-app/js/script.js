@@ -31,7 +31,7 @@ new Vue({
        {picture: 'img/images/hipster_black_top-400x520.jpg'},
      ],
 
-     bestSellerItemsBottom: [
+     mainFreeShippingBand: [
        {picture: 'img/images/promo_box_1_bg.jpg'},
        {picture: 'img/images/promo_box_2_bg.jpg'}
      ]
