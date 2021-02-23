@@ -444,7 +444,6 @@
     #main-free-shipping-band {
       height: 550px;
       width: 100%;
-      border: 1px solid black;
       background-image: url($free-shipping-section-image);
       background-size: cover;
       background-position: center;
@@ -453,7 +452,6 @@
       .wrap {
         @include W-1169-container;
         margin: auto;
-        border: 1px solid black;
         display: flex;
         justify-content: space-between;
 
@@ -467,12 +465,10 @@
 
           .info-box {
             width: 440px;
-            // height: 100px;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            // border: 1px solid red;
 
             h2 {
               font-family: $primary-font;

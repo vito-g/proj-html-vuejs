@@ -343,7 +343,6 @@
 #root main #main-free-shipping-band {
   height: 550px;
   width: 100%;
-  border: 1px solid black;
   background-image: url("../img/images/bkgd_confetti-compressor.jpg");
   background-size: cover;
   background-position: center;
@@ -353,7 +352,6 @@
   width: 1169px;
   margin: auto;
   margin: auto;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
 }
