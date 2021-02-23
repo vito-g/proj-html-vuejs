@@ -15,6 +15,7 @@
 // CONTENITORE di TUTTO
 #root {
   font-family: $primary-font;
+  
 
   // HEADER
   header {
@@ -41,6 +42,7 @@
           }
 
         }
+
       }
 
       &-right {
@@ -76,6 +78,7 @@
         }
 
       }
+
     }
     // End Header Top
 
@@ -114,7 +117,6 @@
             div {
               height: 106px;
               line-height: 106px;
-
 
               li {
                 display: inline-block;
@@ -177,6 +179,7 @@
             &:hover {
               color: $Havelock-blue;
             }
+
           }
 
         }
@@ -248,52 +251,9 @@
       @include W-1169-container;
       height: 1034px;
       // border: 1px solid black;
-      //
-      // &-top {
-      //   height: 258px;
-      //   // border: 1px solid black;
-      //   display: flex;
-      //   flex-direction: row;
-      //
-      //   .sx, .dx {
-      //     height: 50%;
-      //     width: calc((100% / 3) - 25px);
-      //     border-bottom: 1px solid #EAEAEA;
-      //   }
-      //
-      //   .center {
-      //     height: 100%;
-      //     width: calc((100% / 3) + 50px);
-      //     font-size: 38px;
-      //     display: flex;
-      //
-      //     div {
-      //       margin: auto;
-      //       font-weight: 700;
-      //       position: relative;
-      //       display:flex;
-      //       justify-content: center;
-      //
-      //       p {
-      //         font-family: $secondary-font;
-      //         font-weight: 400;
-      //         font-size: 18px;
-      //         position: absolute;
-      //         top: 60px;
-      //       }
-      //
-      //     }
-      //
-      //   }
-      //
-      //
-      // }
 
       &-top {
         height: 258px;
-        // border: 1px solid black;
-        // display: flex;
-        // flex-direction: row;
         position: relative;
 
         .behind {
@@ -330,7 +290,6 @@
           width: 100%;
         }
 
-
       }
 
       &-make-choose {
@@ -351,6 +310,7 @@
           &:hover {
             background-color: transparent;
           }
+
         }
 
       }
@@ -377,6 +337,7 @@
             &:hover {
               color: $Havelock-blue;
             }
+
           }
 
           .elTag {
@@ -391,6 +352,7 @@
               &:hover {
                 color: $Havelock-blue;
               }
+
             }
 
           }
@@ -428,7 +390,6 @@
           width: 100%;
           text-align: center;
 
-
           .elName {
 
             h2 {
@@ -458,10 +419,10 @@
             &:hover {
               background-color: transparent;
             }
+
           }
 
         }
-
 
       }
 
@@ -536,6 +497,7 @@
               &:hover {
                 color: $Edward;
               }
+
             }
 
           }
@@ -571,8 +533,6 @@
               cursor: pointer;
             }
 
-
-
           }
 
           &:last-child {
@@ -596,6 +556,7 @@
               &:hover {
                 background-color: $Havelock-blue;
               }
+
             }
 
           }
@@ -609,7 +570,9 @@
             }
 
           }
+
         }
+
       }
 
     }
@@ -644,6 +607,7 @@
             }
 
           }
+
         }
 
         &-bottom {

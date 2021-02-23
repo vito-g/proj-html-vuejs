@@ -103,14 +103,17 @@
         <!-- END HEADER -->
 
 
+
         <!-- MAIN -->
         <main>
+
 
           <!-- Featured Products -->
           <div id="main-featured-products">
 
 
             <div id="main-featured-products-top">
+
               <div class="behind">
               </div>
               <div class="center">
@@ -119,6 +122,7 @@
                 </div>
               </div>
               <p>Must have products from our top sellers</p>
+
             </div>
 
 
@@ -136,7 +140,9 @@
 
             </div>
 
+
             <div id="main-featured-products-items">
+
               <div v-for="element in objMain.productsItemsMan" class="single-item">
                 <img :src="element.picture" alt="">
                 <span class="elName">{{element.name}} </span><br>
@@ -144,18 +150,6 @@
                 <span class="elCost" v-if="element.cost.length == 1">{{element.cost[0]}}</span>
                 <span class="elDiscount" v-else><del style="font-size: 13px">{{element.cost[0]}}</del> <u>{{element.cost[1]}}</u> </span>
               </div>
-              <!-- <div class="single-item">
-                <img src="img/images/black_elegant_leather_jacket-400x520.jpg" alt="">
-              </div>
-              <div class="single-item">
-                <img src="img/images/black_leather_suit-400x520.jpg" alt="">
-              </div>
-              <div class="single-item">
-                <img src="img/images/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
-              </div>
-              <div class="single-item">
-                  <img src="img/images/modern_black_leather_suit-400x520.jpg" alt="">
-              </div> -->
 
             </div>
 
@@ -164,9 +158,9 @@
           <!-- End Featured Products -->
 
 
-
           <!-- Collection -->
           <div id="collection">
+
             <div v-for="element in objMain.collection" class="single-item">
               <img :src="element.picture" alt="">
               <div class="content">
@@ -179,26 +173,11 @@
                 <button type="button" name="button">VIEW MORE</button>
               </div>
             </div>
+
           </div>
           <!-- End Collection -->
 
-          <!-- Best Seller -->
-          <!-- <div id="main-best-seller">
 
-            <div id="main-best-seller-top">
-              <div class="sx">
-              </div>
-              <div class="center">
-                <div>
-                  Best Seller
-                  <p>Must have products from our top sellers</p>
-                </div>
-              </div>
-              <div class="dx">
-              </div>
-            </div>
-          </div> -->
-          <!-- End Best Seller -->
           <!-- Best Seller -->
           <div id="main-best-seller">
 
@@ -216,8 +195,10 @@
           </div>
           <!-- End Best Seller -->
 
+
         </main>
         <!-- END MAIN -->
+
 
 
         <!-- FOOTER -->
