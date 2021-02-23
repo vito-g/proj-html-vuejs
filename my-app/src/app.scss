@@ -15,7 +15,7 @@
 // CONTENITORE di TUTTO
 #root {
   font-family: $primary-font;
-  
+
 
   // HEADER
   header {
@@ -252,7 +252,7 @@
       height: 1034px;
       // border: 1px solid black;
 
-      &-top {
+      &-top, #main-best-seller-top {
         height: 258px;
         position: relative;
 
@@ -365,6 +365,10 @@
 
       }
 
+    }
+
+    #main-best-seller {
+      height: 718px;
     }
 
     #collection {

@@ -202,16 +202,16 @@
   margin: auto;
   height: 1034px;
 }
-#root main #main-featured-products-top, #root main #main-best-seller-top {
+#root main #main-featured-products-top, #root main #main-featured-products #main-best-seller-top, #root main #main-best-seller-top, #root main #main-best-seller #main-best-seller-top {
   height: 258px;
   position: relative;
 }
-#root main #main-featured-products-top .behind, #root main #main-best-seller-top .behind {
+#root main #main-featured-products-top .behind, #root main #main-featured-products #main-best-seller-top .behind, #root main #main-best-seller-top .behind, #root main #main-best-seller #main-best-seller-top .behind {
   height: 50%;
   width: 100%;
   border-bottom: 1px solid #EAEAEA;
 }
-#root main #main-featured-products-top .center, #root main #main-best-seller-top .center {
+#root main #main-featured-products-top .center, #root main #main-featured-products #main-best-seller-top .center, #root main #main-best-seller-top .center, #root main #main-best-seller #main-best-seller-top .center {
   height: 100%;
   padding: 45px;
   font-size: 38px;
@@ -222,11 +222,11 @@
   background-color: white;
   display: flex;
 }
-#root main #main-featured-products-top .center div, #root main #main-best-seller-top .center div {
+#root main #main-featured-products-top .center div, #root main #main-featured-products #main-best-seller-top .center div, #root main #main-best-seller-top .center div, #root main #main-best-seller #main-best-seller-top .center div {
   margin: auto;
   font-weight: 700;
 }
-#root main #main-featured-products-top p, #root main #main-best-seller-top p {
+#root main #main-featured-products-top p, #root main #main-featured-products #main-best-seller-top p, #root main #main-best-seller-top p, #root main #main-best-seller #main-best-seller-top p {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -286,6 +286,9 @@
 }
 #root main #main-featured-products-items .single-item .elCost, #root main #main-featured-products-items .single-item .elDiscount, #root main #main-best-seller-items .single-item .elCost, #root main #main-best-seller-items .single-item .elDiscount {
   color: #427ed5;
+}
+#root main #main-best-seller {
+  height: 718px;
 }
 #root main #collection {
   display: flex;
