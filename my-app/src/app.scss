@@ -473,6 +473,18 @@
             left: 50%;
             transform: translate(-50%, -50%);
             border: 1px solid red;
+
+            button {
+              @include button-basis;
+              padding: 11px 23px;
+              border: 2px solid white;
+              background-color: #FFFFFF1D;
+
+              &:hover {
+                background-color: transparent;
+              }
+
+            }
           }
 
         }

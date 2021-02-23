@@ -372,6 +372,19 @@
   transform: translate(-50%, -50%);
   border: 1px solid red;
 }
+#root main #main-free-shipping-band .wrap .single-item .info-box button {
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  padding: 11px 23px;
+  border: 2px solid white;
+  background-color: #FFFFFF1D;
+}
+#root main #main-free-shipping-band .wrap .single-item .info-box button:hover {
+  background-color: transparent;
+}
 #root main #main-new-arrivals {
   height: 922px;
 }

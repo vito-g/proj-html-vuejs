@@ -32,8 +32,8 @@ new Vue({
      ],
 
      mainFreeShippingBand: [
-       {picture: 'img/images/promo_box_1_bg.jpg', heading: '70% Off'},
-       {picture: 'img/images/promo_box_2_bg.jpg', heading: 'Free Shipping'}
+       {picture: 'img/images/promo_box_1_bg.jpg', heading: '70% Off', payoff: 'pippo'},
+       {picture: 'img/images/promo_box_2_bg.jpg', heading: 'Free Shipping', payoff: 'pippo'}
      ]
 
      // mainFreeShippingBand: [
